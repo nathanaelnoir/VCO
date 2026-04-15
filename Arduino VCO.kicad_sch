@@ -3812,16 +3812,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 91.44) (xy 27.94 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d5c305e-f927-47a7-9328-3fe7bf5e9ab2")
-	)
-	(wire
-		(pts
 			(xy 148.59 80.01) (xy 148.59 85.09)
 		)
 		(stroke
@@ -3909,6 +3899,16 @@
 			(type default)
 		)
 		(uuid "90023621-e5d7-40d5-a40b-f6b50524690b")
+	)
+	(wire
+		(pts
+			(xy 27.94 91.44) (xy 27.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905e4995-a9fb-4c3a-a9d3-4259c7114dfd")
 	)
 	(wire
 		(pts
@@ -4149,16 +4149,6 @@
 			(type default)
 		)
 		(uuid "bb862363-2e87-4f08-99f5-2099019f3e39")
-	)
-	(wire
-		(pts
-			(xy 33.02 83.82) (xy 35.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd1fbb50-4cad-4510-b8b0-f9225afb0f69")
 	)
 	(wire
 		(pts
@@ -4449,6 +4439,16 @@
 			(type default)
 		)
 		(uuid "ef447eea-29b4-4f3a-a8d6-2b2d59964764")
+	)
+	(wire
+		(pts
+			(xy 33.02 83.82) (xy 35.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5af44fd-fc38-4970-b8ab-d0c51ac44381")
 	)
 	(wire
 		(pts
@@ -6432,7 +6432,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF3"
+		(property "Value" "10nF"
 			(at 38.1 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7479,7 +7479,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF2"
+		(property "Value" "10nF"
 			(at 38.1 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8433,7 +8433,7 @@
 				)
 			)
 		)
-		(property "Value" "22nF1"
+		(property "Value" "22nF"
 			(at 37.338 183.642 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8512,7 +8512,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF1"
+		(property "Value" "10nF"
 			(at 40.64 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9221,7 +9221,7 @@
 				)
 			)
 		)
-		(property "Value" "68n3"
+		(property "Value" "68n"
 			(at 141.224 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9381,7 +9381,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3nF1"
+		(property "Value" "3.3nF"
 			(at 60.706 171.196 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10099,7 +10099,7 @@
 				)
 			)
 		)
-		(property "Value" "68n1"
+		(property "Value" "68n"
 			(at 149.098 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)

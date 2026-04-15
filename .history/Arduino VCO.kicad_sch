@@ -3812,16 +3812,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 91.44) (xy 27.94 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d5c305e-f927-47a7-9328-3fe7bf5e9ab2")
-	)
-	(wire
-		(pts
 			(xy 148.59 80.01) (xy 148.59 85.09)
 		)
 		(stroke
@@ -3829,6 +3819,16 @@
 			(type default)
 		)
 		(uuid "6dbebaa5-b9df-4e7f-b913-4489f81e4ead")
+	)
+	(wire
+		(pts
+			(xy 31.75 92.71) (xy 27.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f303324-0217-4c1e-81c8-fc58a3d6d241")
 	)
 	(wire
 		(pts
@@ -3909,6 +3909,16 @@
 			(type default)
 		)
 		(uuid "90023621-e5d7-40d5-a40b-f6b50524690b")
+	)
+	(wire
+		(pts
+			(xy 31.75 91.44) (xy 31.75 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905e4995-a9fb-4c3a-a9d3-4259c7114dfd")
 	)
 	(wire
 		(pts
@@ -4019,6 +4029,16 @@
 			(type default)
 		)
 		(uuid "a5d2fde9-861b-4ed7-97db-556698208d59")
+	)
+	(wire
+		(pts
+			(xy 31.75 76.2) (xy 27.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85dbd69-7e3c-444e-ba7a-1073ffd4dc4d")
 	)
 	(wire
 		(pts
@@ -4149,16 +4169,6 @@
 			(type default)
 		)
 		(uuid "bb862363-2e87-4f08-99f5-2099019f3e39")
-	)
-	(wire
-		(pts
-			(xy 33.02 83.82) (xy 35.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd1fbb50-4cad-4510-b8b0-f9225afb0f69")
 	)
 	(wire
 		(pts
@@ -4449,6 +4459,16 @@
 			(type default)
 		)
 		(uuid "ef447eea-29b4-4f3a-a8d6-2b2d59964764")
+	)
+	(wire
+		(pts
+			(xy 36.83 83.82) (xy 35.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5af44fd-fc38-4970-b8ab-d0c51ac44381")
 	)
 	(wire
 		(pts
@@ -6432,7 +6452,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF3"
+		(property "Value" "10nF"
 			(at 38.1 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7479,7 +7499,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF2"
+		(property "Value" "10nF"
 			(at 38.1 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8433,7 +8453,7 @@
 				)
 			)
 		)
-		(property "Value" "22nF1"
+		(property "Value" "22nF"
 			(at 37.338 183.642 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8512,7 +8532,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF1"
+		(property "Value" "10nF"
 			(at 40.64 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8572,7 +8592,7 @@
 	)
 	(symbol
 		(lib_id "Eurorack:Potentiometer_Alpha_RD901F_B100K_Vertical")
-		(at 27.94 83.82 90)
+		(at 31.75 83.82 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8583,7 +8603,7 @@
 		(dnp no)
 		(uuid "993acda4-3d50-4d4b-9feb-76231fb87e81")
 		(property "Reference" "RV2"
-			(at 25.4 85.0901 90)
+			(at 29.21 85.0901 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8594,7 +8614,7 @@
 			)
 		)
 		(property "Value" "B100K"
-			(at 25.4 82.5501 90)
+			(at 29.21 82.5501 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8605,7 +8625,7 @@
 			)
 		)
 		(property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_Vertical_Alt"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8617,7 +8637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8628,7 +8648,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8639,7 +8659,7 @@
 			)
 		)
 		(property "MF" "Alpha (Taiwan)"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8651,7 +8671,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "25.00 mm"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8663,7 +8683,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8675,7 +8695,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8687,7 +8707,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RD901F-40-15R1-B100K-00DL1/Alpha/view-part/?ref=eda"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8699,7 +8719,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8711,7 +8731,7 @@
 			)
 		)
 		(property "PARTREV" "10/5/23"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8723,7 +8743,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RD901F-40-15R1-B100K-00DL1/Alpha/view-part/?ref=snap"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8735,7 +8755,7 @@
 			)
 		)
 		(property "MP" "RD901F-40-15R1-B100K-00DL1"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8747,7 +8767,7 @@
 			)
 		)
 		(property "Description_1" "Potentiometers 9mm Linear 100K Round Shaft"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8759,7 +8779,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8771,7 +8791,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Alpha Taiwan"
-			(at 27.94 83.82 0)
+			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9221,7 +9241,7 @@
 				)
 			)
 		)
-		(property "Value" "68n3"
+		(property "Value" "68n"
 			(at 141.224 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9381,7 +9401,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3nF1"
+		(property "Value" "3.3nF"
 			(at 60.706 171.196 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10099,7 +10119,7 @@
 				)
 			)
 		)
-		(property "Value" "68n1"
+		(property "Value" "68n"
 			(at 149.098 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
