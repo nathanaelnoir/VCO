@@ -2848,7 +2848,7 @@
 		)
 		(uuid "237202c8-3cda-433e-9468-6eddbb4f03df")
 	)
-	(text "KNOB ROOT: FREQUENCY\n"
+	(text "KNOB 1: FREQUENCY\n"
 		(exclude_from_sim no)
 		(at 69.85 19.304 0)
 		(effects
@@ -2871,9 +2871,9 @@
 		)
 		(uuid "49a25140-e5f3-4486-a4ec-5788b17d616d")
 	)
-	(text "KNOB CHORD/WAVE\n\n"
+	(text "KNOB 3: CHORD/WAVE\n\n"
 		(exclude_from_sim no)
-		(at 80.01 112.522 0)
+		(at 76.708 112.268 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2918,7 +2918,7 @@
 		)
 		(uuid "59450292-fa47-452f-a142-715252d7da2a")
 	)
-	(text "KNOB: INVERSION\n"
+	(text "KNOB 2: INVERSION\n"
 		(exclude_from_sim no)
 		(at 77.216 64.262 0)
 		(effects
@@ -4524,7 +4524,7 @@
 			)
 		)
 	)
-	(global_label "Inversion CV"
+	(global_label "CV 3"
 		(shape input)
 		(at 161.29 132.08 0)
 		(fields_autoplaced yes)
@@ -4536,7 +4536,7 @@
 		)
 		(uuid "3439cd36-c58b-4410-bfc8-74113ef119c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1285 132.08 0)
+			(at 168.8109 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4548,7 +4548,7 @@
 			)
 		)
 	)
-	(global_label "Chord CV"
+	(global_label "CV 2"
 		(shape input)
 		(at 248.92 74.93 0)
 		(fields_autoplaced yes)
@@ -4560,7 +4560,7 @@
 		)
 		(uuid "4c1226d5-a78a-401b-88f8-ff663c95fac2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.7346 74.93 0)
+			(at 256.4409 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4572,7 +4572,7 @@
 			)
 		)
 	)
-	(global_label "CV"
+	(global_label "CV 1"
 		(shape input)
 		(at 152.4 36.83 0)
 		(fields_autoplaced yes)
@@ -4584,7 +4584,7 @@
 		)
 		(uuid "6ad81f7d-2fed-415e-8a37-18bd86207053")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.7438 36.83 0)
+			(at 159.9209 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4596,7 +4596,7 @@
 			)
 		)
 	)
-	(global_label "Inversion"
+	(global_label "KNOB 2"
 		(shape input)
 		(at 53.34 83.82 0)
 		(fields_autoplaced yes)
@@ -4608,7 +4608,7 @@
 		)
 		(uuid "7d8c0a15-5daf-4e27-b8b8-ea1a767b4cd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.8523 83.82 0)
+			(at 63.7033 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4668,7 +4668,7 @@
 			)
 		)
 	)
-	(global_label "Chord CV"
+	(global_label "CV 2"
 		(shape input)
 		(at 161.29 85.09 0)
 		(fields_autoplaced yes)
@@ -4680,7 +4680,7 @@
 		)
 		(uuid "a876bd45-2149-403f-b4d2-b048bb728dae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.1046 85.09 0)
+			(at 168.8109 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4692,7 +4692,7 @@
 			)
 		)
 	)
-	(global_label "Chord{slash}Wave"
+	(global_label "KNOB 3"
 		(shape input)
 		(at 248.92 69.85 0)
 		(fields_autoplaced yes)
@@ -4704,7 +4704,7 @@
 		)
 		(uuid "b93ad2f3-a764-4e3e-bf7a-1406bfde0162")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.3955 69.85 0)
+			(at 259.2833 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4716,7 +4716,7 @@
 			)
 		)
 	)
-	(global_label "Root Freq"
+	(global_label "KNOB 1"
 		(shape input)
 		(at 50.8 35.56 0)
 		(fields_autoplaced yes)
@@ -4728,7 +4728,7 @@
 		)
 		(uuid "ced1cc2e-4d72-4118-a96e-16d25e9be0bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1589 35.56 0)
+			(at 61.1633 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +4764,7 @@
 			)
 		)
 	)
-	(global_label "Chord{slash}Wave"
+	(global_label "KNOB 3"
 		(shape input)
 		(at 50.8 134.62 0)
 		(fields_autoplaced yes)
@@ -4776,7 +4776,7 @@
 		)
 		(uuid "e9d07eeb-f273-42bd-afb9-2a166230e4a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.2755 134.62 0)
+			(at 61.1633 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4788,7 +4788,7 @@
 			)
 		)
 	)
-	(global_label "Inversion CV"
+	(global_label "CV 3"
 		(shape input)
 		(at 248.92 72.39 0)
 		(fields_autoplaced yes)
@@ -4800,7 +4800,7 @@
 		)
 		(uuid "f540dc69-99b3-4888-9808-ae741ad7f1f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.7585 72.39 0)
+			(at 256.4409 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4812,7 +4812,7 @@
 			)
 		)
 	)
-	(global_label "Root Freq"
+	(global_label "KNOB 1"
 		(shape input)
 		(at 248.92 62.23 0)
 		(fields_autoplaced yes)
@@ -4824,7 +4824,7 @@
 		)
 		(uuid "f9e76f9d-17d2-42d7-90c5-3bc17628931e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.2789 62.23 0)
+			(at 259.2833 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +4860,7 @@
 			)
 		)
 	)
-	(global_label "Inversion"
+	(global_label "KNOB 2"
 		(shape input)
 		(at 248.92 64.77 0)
 		(fields_autoplaced yes)
@@ -4872,7 +4872,7 @@
 		)
 		(uuid "fdd7327d-9934-4ec1-a6ef-a4f301800470")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.4323 64.77 0)
+			(at 259.2833 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
