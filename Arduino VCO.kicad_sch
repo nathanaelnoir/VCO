@@ -2685,7 +2685,7 @@
 		)
 	)
 	(rectangle
-		(start 102.108 106.426)
+		(start 102.108 106.045)
 		(end 176.53 151.638)
 		(stroke
 			(width 0)
@@ -2710,7 +2710,7 @@
 	)
 	(rectangle
 		(start 101.854 59.944)
-		(end 176.53 105.156)
+		(end 176.53 104.775)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2805,7 +2805,7 @@
 	)
 	(text "HARMONICS"
 		(exclude_from_sim no)
-		(at 84.836 115.824 0)
+		(at 84.328 114.808 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2827,7 +2827,7 @@
 	)
 	(text "FREQUENCY\n"
 		(exclude_from_sim no)
-		(at 114.554 121.158 0)
+		(at 115.062 119.38 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2861,7 +2861,7 @@
 	)
 	(text "FUNDAMENTAL\n"
 		(exclude_from_sim no)
-		(at 84.582 24.13 0)
+		(at 81.026 24.384 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2884,7 +2884,7 @@
 	)
 	(text "MOD LEVEL"
 		(exclude_from_sim no)
-		(at 84.328 120.904 0)
+		(at 84.328 119.634 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2907,7 +2907,7 @@
 	)
 	(text "2. Additive VCO\n"
 		(exclude_from_sim no)
-		(at 182.118 130.556 0)
+		(at 181.864 131.064 0)
 		(effects
 			(font
 				(size 2.27 2.27)
@@ -2931,7 +2931,7 @@
 	)
 	(text "3. 2-Operator FM VCO"
 		(exclude_from_sim no)
-		(at 182.118 136.144 0)
+		(at 181.864 136.652 0)
 		(effects
 			(font
 				(size 2.27 2.27)
@@ -2944,7 +2944,7 @@
 	)
 	(text "Eurorack Power\n"
 		(exclude_from_sim no)
-		(at 158.75 157.988 0)
+		(at 158.75 158.242 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2966,7 +2966,7 @@
 	)
 	(text "GAIN\n"
 		(exclude_from_sim no)
-		(at 107.696 116.078 0)
+		(at 108.204 115.062 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2978,7 +2978,7 @@
 	)
 	(text ""
 		(exclude_from_sim no)
-		(at 195.326 125.222 0)
+		(at 195.072 125.73 0)
 		(effects
 			(font
 				(size 2.27 2.27)
@@ -2999,7 +2999,7 @@
 	)
 	(text ""
 		(exclude_from_sim no)
-		(at 191.008 124.46 0)
+		(at 190.754 124.968 0)
 		(effects
 			(font
 				(size 2.27 2.27)
@@ -3021,7 +3021,7 @@
 	)
 	(text "1. Chord VCO"
 		(exclude_from_sim no)
-		(at 182.372 124.714 0)
+		(at 182.118 125.222 0)
 		(effects
 			(font
 				(size 2.27 2.27)
@@ -3033,7 +3033,7 @@
 	)
 	(text "CARRIER"
 		(exclude_from_sim no)
-		(at 79.502 29.21 0)
+		(at 75.692 29.21 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3045,7 +3045,7 @@
 	)
 	(text "INVERSION CV IN\n"
 		(exclude_from_sim no)
-		(at 119.634 111.252 0)
+		(at 120.142 110.236 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3056,7 +3056,7 @@
 	)
 	(text "LEVEL\n"
 		(exclude_from_sim no)
-		(at 109.22 73.66 0)
+		(at 108.966 74.168 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3068,7 +3068,7 @@
 	)
 	(text ""
 		(exclude_from_sim no)
-		(at 237.998 121.666 0)
+		(at 263.906 122.682 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3090,7 +3090,7 @@
 	)
 	(text "HARM\n"
 		(exclude_from_sim no)
-		(at 108.712 68.58 0)
+		(at 108.458 68.834 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4895,7 +4895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "003d122e-bd47-4373-bb75-884c49af3b1e")
-		(property "Reference" "68n2"
+		(property "Reference" "C6"
 			(at 150.114 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4905,7 +4905,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "68n"
 			(at 150.114 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4915,7 +4915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 153.9748 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4957,7 +4957,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "68n2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4974,7 +4974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01d9fe09-99da-4922-bdd4-18fe2d683e69")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 132.842 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,7 +4996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 138.684 89.916 90)
 			(hide yes)
 			(show_name no)
@@ -5038,7 +5038,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5056,7 +5056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0224732c-7ab2-42b4-bd7f-92824443de9d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 158.75 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5116,7 +5116,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5135,7 +5135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d2498d1-1565-450e-96ee-bae28163d343")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR031"
 			(at 86.36 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -5195,7 +5195,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR036")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5213,7 +5213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16f1e4b9-0a94-48f1-9c4c-6630307e7b7d")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 106.68 83.1849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5235,7 +5235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Eurorack:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 111.76 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5280,7 +5280,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5298,7 +5298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17ee4813-0c87-4aa9-88e5-514097126a1e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR017"
 			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5358,7 +5358,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR035")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5606,7 +5606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b93b8ce-02ef-4512-9b41-b56508ac3228")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 148.59 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5671,7 +5671,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5688,7 +5688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24e0d180-ee7b-43c1-88d5-38514ebef901")
-		(property "Reference" "TP5"
+		(property "Reference" "TP1"
 			(at 229.108 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5710,7 +5710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 240.03 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5749,7 +5749,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "TP5")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5767,7 +5767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25ef8f90-d6b3-40af-b1f8-935012ee5b34")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR022"
 			(at 25.4 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5827,7 +5827,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR014")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5927,7 +5927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28a31354-5ca3-432f-be2c-772ff9a7dbbd")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 123.952 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5949,7 +5949,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 129.794 41.656 90)
 			(hide yes)
 			(show_name no)
@@ -5991,7 +5991,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6029,7 +6029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6107,7 +6107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f355629-901b-47af-a21a-7cb9e59f563b")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR05"
 			(at 247.65 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6167,7 +6167,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR041")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6185,7 +6185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33ab3a50-c136-45e9-9f07-9a03fb107ade")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR018"
 			(at 139.7 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6245,7 +6245,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR033")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6264,7 +6264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37867546-9bef-41d3-8535-988ec8a90e58")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR030"
 			(at 81.28 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -6324,7 +6324,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR040")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6363,7 +6363,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 127.254 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -6422,7 +6422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fe0b772-07c3-4559-bef7-543ea1de8b61")
-		(property "Reference" "10nF3"
+		(property "Reference" "C3"
 			(at 38.1 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6432,7 +6432,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF3"
 			(at 38.1 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6442,7 +6442,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 43.4848 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6484,7 +6484,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "10nF3")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6501,7 +6501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4650721a-7913-4ca8-ac17-204e354c6d64")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 132.842 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,7 +6523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 138.684 136.906 90)
 			(hide yes)
 			(show_name no)
@@ -6565,7 +6565,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6583,7 +6583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48ced7ec-20a3-4243-8658-1abb82da1304")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 25.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6643,7 +6643,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6661,7 +6661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48f4f868-2533-4bb9-b552-39dcbd9eb9da")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR09"
 			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6721,7 +6721,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR020")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6740,7 +6740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e32281f-c8c2-435c-992e-ee9674f1dca7")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR028"
 			(at 33.02 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -6800,7 +6800,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR037")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6818,7 +6818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54760648-78b5-4c73-9ef4-54340ec28995")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR026"
 			(at 25.4 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6878,7 +6878,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR015")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6896,7 +6896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54a2eb66-8ea6-4898-80c3-139e29783d9b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR04"
 			(at 256.54 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6956,7 +6956,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR017")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6994,7 +6994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 96.52 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -7072,7 +7072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57052bf7-2cc0-4fee-8eec-531fdf2034de")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 44.45 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7132,7 +7132,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7150,7 +7150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "581eeaf3-1ef2-4ca0-b8e3-280273018e0c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR012"
 			(at 158.75 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7210,7 +7210,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR028")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7228,7 +7228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "587147bb-e4ee-42af-83be-e34843ad4817")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR019"
 			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7288,7 +7288,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR032")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7306,7 +7306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5abc78af-09d2-4aab-b28b-fab63fb342ad")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 148.59 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7371,7 +7371,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7388,7 +7388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fa9acc5-b1f1-4cea-9b1e-b6f2a13a36a3")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 29.972 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,7 +7410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 28.194 171.704 90)
 			(hide yes)
 			(show_name no)
@@ -7452,7 +7452,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7469,7 +7469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61a224d5-fbe2-4885-a876-00b0e78c35d1")
-		(property "Reference" "10nF2"
+		(property "Reference" "C8"
 			(at 38.1 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7479,7 +7479,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF2"
 			(at 38.1 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7489,7 +7489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 43.4848 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7531,7 +7531,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "10nF2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7548,7 +7548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72bade27-fae8-4734-a8a4-0df9bb49a707")
-		(property "Reference" "R9"
+		(property "Reference" "R15"
 			(at 115.57 183.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7570,7 +7570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 114.554 176.784 90)
 			(hide yes)
 			(show_name no)
@@ -7612,7 +7612,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R9")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7631,7 +7631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7723403e-540e-45d2-b34e-179028d6b0bf")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR029"
 			(at 48.26 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7691,7 +7691,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR038")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7709,7 +7709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a2993f8-25c3-44e1-8e73-07e8de675409")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 231.14 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7769,7 +7769,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7786,7 +7786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7aa096b3-6473-4d44-8b14-c19eb6c89572")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 39.37 130.8101 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7808,7 +7808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 37.084 133.604 90)
 			(hide yes)
 			(show_name no)
@@ -7850,7 +7850,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7868,7 +7868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e97a87f-53aa-4433-ae48-6fb514a818d7")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR020"
 			(at 138.43 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7928,7 +7928,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR027")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8177,7 +8177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "887f282b-7bd4-4e76-8231-f685f190d503")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR032"
 			(at 120.65 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -8237,7 +8237,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR039")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8255,7 +8255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d8c5b20-704f-4ac4-9766-f4671ba099f3")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 106.68 34.9249 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8277,7 +8277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Eurorack:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 111.76 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8322,7 +8322,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8339,7 +8339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8db497ae-4ae1-4b57-aa34-9a3f578f09c4")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 130.81 175.8949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8361,7 +8361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Eurorack:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 125.73 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8406,7 +8406,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8423,7 +8423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fb3de90-d956-419c-bf6a-dac23d89d897")
-		(property "Reference" "22nF1"
+		(property "Reference" "C10"
 			(at 37.338 186.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8433,7 +8433,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22nF1"
 			(at 37.338 183.642 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8443,7 +8443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 33.9852 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -8485,7 +8485,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "22nF1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8502,7 +8502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9758d024-59a8-46bd-a310-15dda69e93d5")
-		(property "Reference" "10nF1"
+		(property "Reference" "C5"
 			(at 40.64 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8512,7 +8512,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF1"
 			(at 40.64 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8522,7 +8522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 46.0248 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8564,7 +8564,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "10nF1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8811,7 +8811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a04e570-8d17-4a30-b7c4-95f66d2c7ab8")
-		(property "Reference" "R12"
+		(property "Reference" "R16"
 			(at 74.168 181.864 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8833,7 +8833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 80.264 182.626 90)
 			(hide yes)
 			(show_name no)
@@ -8875,7 +8875,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8971,7 +8971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6762df6-0038-4d05-b397-77fdad8619fa")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 139.7 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9031,7 +9031,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9048,7 +9048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a824181a-1a74-4f4e-8e62-dea5e4489608")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 98.806 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9070,7 +9070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 96.774 167.894 90)
 			(hide yes)
 			(show_name no)
@@ -9112,7 +9112,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9130,7 +9130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8cbc2c6-1ca8-42ea-9358-35817332cce5")
-		(property "Reference" "C10"
+		(property "Reference" "C2"
 			(at 252.476 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9194,7 +9194,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "C10")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9211,7 +9211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a92894ec-c587-4031-9d8c-bb3175591c67")
-		(property "Reference" "68n3"
+		(property "Reference" "C4"
 			(at 141.224 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9221,7 +9221,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "68n3"
 			(at 141.224 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9231,7 +9231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 145.0848 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9273,7 +9273,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "68n3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9290,7 +9290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2125c11-3302-4f58-ad8e-4aab46ea0032")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 125.476 82.296 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9312,7 +9312,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 127.254 84.074 90)
 			(hide yes)
 			(show_name no)
@@ -9354,7 +9354,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9371,7 +9371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b23a9ffd-72b1-4231-851d-9c0a08afca85")
-		(property "Reference" "3.3nF1"
+		(property "Reference" "C9"
 			(at 60.706 168.402 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9381,7 +9381,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "3.3nF1"
 			(at 60.706 171.196 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9391,7 +9391,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 55.88 164.7952 0)
 			(hide yes)
 			(show_name no)
@@ -9433,7 +9433,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "3.3nF1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9451,7 +9451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba3ba591-0231-4b34-8dea-dd40384fec7f")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR02"
 			(at 129.54 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9511,7 +9511,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR019")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9529,7 +9529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba3e669f-cb96-4b7d-a071-1b5846cb978f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR011"
 			(at 138.43 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9589,7 +9589,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR034")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9607,7 +9607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bff48c31-a98c-4369-84ff-d33d1102aa72")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR01"
 			(at 25.4 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9667,7 +9667,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR010")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9852,7 +9852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c913c0ed-45a5-438a-ac20-18c5e7c20e2b")
-		(property "Reference" "R16"
+		(property "Reference" "R9"
 			(at 35.814 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9874,7 +9874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 32.004 162.306 90)
 			(hide yes)
 			(show_name no)
@@ -9916,7 +9916,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R16")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9934,7 +9934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb626673-682b-49a4-bd8b-38226946d368")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR03"
 			(at 151.13 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9994,7 +9994,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR021")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10012,7 +10012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdd85c25-862a-4851-afb1-2ddf1c1830c2")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR027"
 			(at 44.45 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10072,7 +10072,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR016")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10089,8 +10089,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cff886be-a9c6-420d-a63f-1330a221dea9")
-		(property "Reference" "68n1"
-			(at 150.114 138.684 0)
+		(property "Reference" "C7"
+			(at 149.098 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10099,8 +10099,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 150.114 135.89 0)
+		(property "Value" "68n1"
+			(at 149.098 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10109,7 +10109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 153.9748 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10151,7 +10151,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "68n1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10190,7 +10190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 37.084 34.544 90)
 			(hide yes)
 			(show_name no)
@@ -10271,7 +10271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 40.894 171.704 90)
 			(hide yes)
 			(show_name no)
@@ -10331,7 +10331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddb12405-3987-4f2c-9d3d-8e894ec52059")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10391,7 +10391,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10409,7 +10409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df693d3c-2b51-4b84-a4f4-7f7e7cda4429")
-		(property "Reference" "C9"
+		(property "Reference" "C1"
 			(at 245.11 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10473,7 +10473,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "C9")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10513,7 +10513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Eurorack:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 111.76 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10576,7 +10576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5096887-7119-4c4e-87e2-ac514eaf9e1b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 27.94 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10636,7 +10636,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10654,7 +10654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e68e2ba0-e6e8-40a5-b541-0be98d69e3e4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR08"
 			(at 118.11 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10714,7 +10714,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR022")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10732,7 +10732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e76ebaef-54fb-4f44-8618-d4e4cb41f49d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 154.94 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10792,7 +10792,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10809,7 +10809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec593e0f-3a21-438f-90a7-bc49713efcdb")
-		(property "Reference" "R15"
+		(property "Reference" "R10"
 			(at 29.21 164.846 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10831,7 +10831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 28.194 166.624 90)
 			(hide yes)
 			(show_name no)
@@ -10873,7 +10873,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R15")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10890,7 +10890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eeb95627-6763-4ef8-af8a-7948644f2818")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 41.91 80.0101 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10912,7 +10912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 39.624 82.804 90)
 			(hide yes)
 			(show_name no)
@@ -10954,7 +10954,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10971,7 +10971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3f7c6be-03cf-4388-aa03-bddc477eb193")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 76.708 172.212 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10993,7 +10993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 75.184 174.244 90)
 			(hide yes)
 			(show_name no)
@@ -11035,7 +11035,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -11053,7 +11053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8b3e72f-1dc1-42d2-884c-b10a5e56c0f1")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR010"
 			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11113,7 +11113,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR018")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11131,7 +11131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fecdba1c-237c-4770-b0b3-20368c0867fb")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 46.99 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11191,15 +11191,15 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 146.05 173.99)
-		(size 27.178 12.065)
+		(at 144.78 172.085)
+		(size 27.178 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11214,7 +11214,7 @@
 		)
 		(uuid "6ad9a068-c00b-4d78-a509-b3a18517b3c8")
 		(property "Sheetname" "Eurorack Power"
-			(at 146.05 173.2784 0)
+			(at 144.78 171.3734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11225,7 +11225,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 146.05 186.6396 0)
+			(at 144.78 191.7196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
