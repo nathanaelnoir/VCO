@@ -5,7 +5,9 @@
 	(uuid "3a28b572-943c-402b-9245-b62f72b0a8e3")
 	(paper "A4")
 	(title_block
+		(title "Tripple VCO")
 		(date "2026-04-15")
+		(rev "v1.0")
 		(company "Dirty Dream - Nathanael Noir")
 	)
 	(lib_symbols
@@ -2683,7 +2685,7 @@
 		)
 	)
 	(rectangle
-		(start 102.108 106.426)
+		(start 102.108 106.045)
 		(end 176.53 151.638)
 		(stroke
 			(width 0)
@@ -2695,8 +2697,8 @@
 		(uuid "0ab21faa-1de9-40d8-87bf-ec9c3d734260")
 	)
 	(rectangle
-		(start 177.8 106.426)
-		(end 283.718 151.765)
+		(start 140.208 153.162)
+		(end 176.403 197.485)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2708,7 +2710,7 @@
 	)
 	(rectangle
 		(start 101.854 59.944)
-		(end 176.53 105.156)
+		(end 176.53 104.775)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2720,7 +2722,7 @@
 	)
 	(rectangle
 		(start 12.7 153.035)
-		(end 176.53 197.485)
+		(end 139.065 197.485)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2801,6 +2803,18 @@
 		)
 		(uuid "0b967f26-71ed-4de7-90c0-2e37dcd2fc74")
 	)
+	(text "HARMONICS"
+		(exclude_from_sim no)
+		(at 84.328 114.808 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "12138993-c057-4d45-93b8-8aff7d6cf094")
+	)
 	(text ""
 		(exclude_from_sim no)
 		(at 63.246 128.27 0)
@@ -2810,6 +2824,18 @@
 			)
 		)
 		(uuid "138b151a-e476-4741-8ee1-47698f282ded")
+	)
+	(text "FREQUENCY\n"
+		(exclude_from_sim no)
+		(at 115.062 119.38 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "230489bd-de7b-4170-82be-142ce86dd115")
 	)
 	(text "CV INPUT\n"
 		(exclude_from_sim no)
@@ -2822,9 +2848,9 @@
 		)
 		(uuid "237202c8-3cda-433e-9468-6eddbb4f03df")
 	)
-	(text "KNOB ROOT FREQUENCY\n"
+	(text "KNOB 1: FREQUENCY\n"
 		(exclude_from_sim no)
-		(at 74.93 17.272 0)
+		(at 69.85 19.304 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2833,9 +2859,21 @@
 		)
 		(uuid "31855884-72a6-47dc-ba73-f8db2795630e")
 	)
-	(text "KNOB CHORD/WAVE\n\n"
+	(text "FUNDAMENTAL\n"
 		(exclude_from_sim no)
-		(at 79.502 113.538 0)
+		(at 81.026 24.384 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "49a25140-e5f3-4486-a4ec-5788b17d616d")
+	)
+	(text "KNOB 3: CHORD/WAVE\n\n"
+		(exclude_from_sim no)
+		(at 76.708 112.268 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2843,6 +2881,18 @@
 			)
 		)
 		(uuid "4d341148-f741-45b8-852d-b49fc66c9ea1")
+	)
+	(text "MOD LEVEL"
+		(exclude_from_sim no)
+		(at 84.328 119.634 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "557234df-71ff-4f41-a9d7-73e7662103b7")
 	)
 	(text "ARDUINO CORE\n"
 		(exclude_from_sim no)
@@ -2855,9 +2905,22 @@
 		)
 		(uuid "569fbb5c-63d2-4431-98d6-88bfe9fc1300")
 	)
-	(text "KNOB INVERSION\n"
+	(text "2. Additive VCO\n"
 		(exclude_from_sim no)
-		(at 82.296 63.754 0)
+		(at 181.864 131.064 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.2838)
+				(color 0 194 0 1)
+			)
+			(justify left)
+		)
+		(uuid "59450292-fa47-452f-a142-715252d7da2a")
+	)
+	(text "KNOB 2: INVERSION\n"
+		(exclude_from_sim no)
+		(at 77.216 64.262 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2866,9 +2929,22 @@
 		)
 		(uuid "6e4e3346-1024-4813-bc91-4cf87df497d9")
 	)
+	(text "3. 2-Operator FM VCO"
+		(exclude_from_sim no)
+		(at 181.864 136.652 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.2838)
+				(color 194 0 194 1)
+			)
+			(justify left)
+		)
+		(uuid "745bab28-fc88-43c3-aa26-14b0132ea73c")
+	)
 	(text "Eurorack Power\n"
 		(exclude_from_sim no)
-		(at 194.818 110.236 0)
+		(at 158.75 158.242 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2877,9 +2953,43 @@
 		)
 		(uuid "759d28d1-d16b-49d4-a194-f0b450893836")
 	)
-	(text "Change between MAJ, MAJ7, MAJ add9, sus2, min add9, min7, min, oct."
+	(text "This module can be implemented using code from one of \nthree oscillator types:"
 		(exclude_from_sim no)
-		(at 64.008 115.824 0)
+		(at 232.156 112.522 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.2838)
+			)
+		)
+		(uuid "7b91c87a-0d8c-4962-aa78-5bfe96ebde50")
+	)
+	(text "GAIN\n"
+		(exclude_from_sim no)
+		(at 108.204 115.062 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "7df62839-a399-474f-95d0-ad69737407d9")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 195.072 125.73 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+			)
+			(justify left)
+		)
+		(uuid "7f26cb33-9df4-4626-8393-acdf51734b43")
+	)
+	(text "Change between MAJ, MAJ7, MAJ add9,\n sus2, min add9, min7, min, oct."
+		(exclude_from_sim no)
+		(at 74.676 145.034 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2887,9 +2997,20 @@
 		)
 		(uuid "8a8c3b4e-002c-4910-b446-ce3d6c713a38")
 	)
+	(text ""
+		(exclude_from_sim no)
+		(at 190.754 124.968 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+			)
+			(justify left)
+		)
+		(uuid "8e5b47e1-6a50-43c9-857e-749b1ad0aeab")
+	)
 	(text "OUTPUT\n"
 		(exclude_from_sim no)
-		(at 22.86 158.242 0)
+		(at 23.114 157.734 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2898,9 +3019,33 @@
 		)
 		(uuid "98a73821-7702-42d9-9ab4-a214b338b62d")
 	)
+	(text "1. Chord VCO"
+		(exclude_from_sim no)
+		(at 182.118 125.222 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.2838)
+			)
+			(justify left)
+		)
+		(uuid "a75c81cf-6291-4c4e-a40d-19cd30a42978")
+	)
+	(text "CARRIER"
+		(exclude_from_sim no)
+		(at 75.692 29.21 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "a908f759-b00f-4f76-ac9a-1c4e56d99a4b")
+	)
 	(text "INVERSION CV IN\n"
 		(exclude_from_sim no)
-		(at 119.634 111.252 0)
+		(at 120.142 110.236 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2909,9 +3054,55 @@
 		)
 		(uuid "b9910bff-e4d7-44e9-89c2-1a55bd2e98ae")
 	)
+	(text "LEVEL\n"
+		(exclude_from_sim no)
+		(at 108.966 74.168 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "c09aa902-c8cb-4f49-9aaa-762590fc00cc")
+	)
 	(text ""
 		(exclude_from_sim no)
-		(at 82.042 114.808 0)
+		(at 263.906 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4a8c53a-874c-442f-8960-2459b9c68e3c")
+	)
+	(text "MODULATION\n"
+		(exclude_from_sim no)
+		(at 85.852 73.914 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "ed5e85f1-d36f-4996-87bf-a08d18bde96b")
+	)
+	(text "HARM\n"
+		(exclude_from_sim no)
+		(at 108.458 68.834 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "f39ce264-7494-4b13-a0fe-3b7dbd18e5ee")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 82.55 113.792 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2919,9 +3110,21 @@
 		)
 		(uuid "f3e8bb6f-56e6-4567-8859-0b2c66a47dcd")
 	)
+	(text "GAIN\n"
+		(exclude_from_sim no)
+		(at 78.486 69.088 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "f641d123-2855-4182-b6c5-5479f4bd464e")
+	)
 	(text "This Knob is divided into 16 Parts. "
 		(exclude_from_sim no)
-		(at 81.534 67.818 0)
+		(at 73.152 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2954,13 +3157,13 @@
 		(uuid "202892a8-fb31-4b0f-b504-b86e576c5dbf")
 	)
 	(junction
-		(at 74.93 175.26)
+		(at 68.58 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2272d9e0-5e19-4139-bfe9-b6df548dc82e")
 	)
 	(junction
-		(at 93.98 175.26)
+		(at 87.63 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37bbd007-1a4f-48fc-86e3-7df0e30c43d5")
@@ -2990,7 +3193,7 @@
 		(uuid "485686c8-f16e-4c6a-957a-4f5f13009f61")
 	)
 	(junction
-		(at 39.37 167.64)
+		(at 33.02 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5297424c-7cdf-4556-b07e-0c7f1ef04a8d")
@@ -3014,7 +3217,7 @@
 		(uuid "6d7c2639-b9dc-4742-8b7c-6da55321e881")
 	)
 	(junction
-		(at 114.3 177.8)
+		(at 107.95 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f1489bb-fc5b-4960-8476-3c66a623d910")
@@ -3026,7 +3229,7 @@
 		(uuid "6f890d39-d739-495c-b794-194d86b5bd43")
 	)
 	(junction
-		(at 54.61 172.72)
+		(at 48.26 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bd3ded7-b3c2-44ef-90b7-b6d56625d179")
@@ -3068,7 +3271,7 @@
 		(uuid "dad2e3ea-e790-4759-9073-4340ed966b3a")
 	)
 	(junction
-		(at 87.63 175.26)
+		(at 81.28 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc99ada6-b0be-485a-8b25-ba5f41846479")
@@ -3080,7 +3283,7 @@
 		(uuid "ec5bc246-437e-47da-bcec-2fc333776d90")
 	)
 	(junction
-		(at 74.93 163.83)
+		(at 68.58 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2ca4b88-42ab-4cab-a480-ea5309d3e9e7")
@@ -3092,7 +3295,7 @@
 		(uuid "f38e7f86-a42f-4ecf-ad3a-2b01e072c4d2")
 	)
 	(junction
-		(at 39.37 172.72)
+		(at 33.02 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa136000-3238-41a2-9836-62e050ca9027")
@@ -3162,7 +3365,7 @@
 		(uuid "d56c1d32-2a35-4952-b7eb-dbcc5234dcd6")
 	)
 	(no_connect
-		(at 127 175.26)
+		(at 120.65 175.26)
 		(uuid "ea6e53c5-eff7-40d5-9ab1-356a00d07e63")
 	)
 	(no_connect
@@ -3199,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 175.26) (xy 87.63 175.26)
+			(xy 78.74 175.26) (xy 81.28 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3209,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 175.26) (xy 95.25 175.26)
+			(xy 87.63 175.26) (xy 88.9 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 186.69) (xy 54.61 177.8)
+			(xy 48.26 186.69) (xy 48.26 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3259,7 +3462,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 175.26) (xy 74.93 175.26)
+			(xy 66.04 175.26) (xy 68.58 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3359,7 +3562,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 158.75) (xy 74.93 163.83)
+			(xy 68.58 158.75) (xy 68.58 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3419,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 158.75) (xy 74.93 158.75)
+			(xy 33.02 158.75) (xy 68.58 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3469,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 172.72) (xy 43.18 172.72)
+			(xy 33.02 172.72) (xy 36.83 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3499,7 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 175.26) (xy 77.47 175.26)
+			(xy 68.58 175.26) (xy 71.12 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3509,7 +3712,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 172.72) (xy 54.61 172.72)
+			(xy 44.45 172.72) (xy 48.26 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3589,7 +3792,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 172.72) (xy 39.37 172.72)
+			(xy 31.75 172.72) (xy 33.02 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3609,16 +3812,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 91.44) (xy 27.94 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d5c305e-f927-47a7-9328-3fe7bf5e9ab2")
-	)
-	(wire
-		(pts
 			(xy 148.59 80.01) (xy 148.59 85.09)
 		)
 		(stroke
@@ -3629,7 +3822,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 186.69) (xy 92.71 180.34)
+			(xy 86.36 186.69) (xy 86.36 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3649,7 +3842,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 163.83) (xy 74.93 163.83)
+			(xy 63.5 163.83) (xy 68.58 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3679,7 +3872,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 186.69) (xy 127 180.34)
+			(xy 120.65 186.69) (xy 120.65 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3706,6 +3899,16 @@
 			(type default)
 		)
 		(uuid "90023621-e5d7-40d5-a40b-f6b50524690b")
+	)
+	(wire
+		(pts
+			(xy 27.94 91.44) (xy 27.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905e4995-a9fb-4c3a-a9d3-4259c7114dfd")
 	)
 	(wire
 		(pts
@@ -3769,7 +3972,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 180.34) (xy 95.25 180.34)
+			(xy 86.36 180.34) (xy 88.9 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3779,7 +3982,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 163.83) (xy 54.61 163.83)
+			(xy 55.88 163.83) (xy 48.26 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3789,7 +3992,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 168.91) (xy 114.3 168.91)
+			(xy 100.33 168.91) (xy 107.95 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3799,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 167.64) (xy 39.37 172.72)
+			(xy 33.02 167.64) (xy 33.02 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3809,7 +4012,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 167.64) (xy 39.37 167.64)
+			(xy 31.75 167.64) (xy 33.02 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 166.37) (xy 39.37 167.64)
+			(xy 33.02 166.37) (xy 33.02 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3899,7 +4102,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 177.8) (xy 57.15 177.8)
+			(xy 48.26 177.8) (xy 50.8 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3919,7 +4122,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 167.64) (xy 30.48 167.64)
+			(xy 22.86 167.64) (xy 24.13 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3929,7 +4132,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 177.8) (xy 127 177.8)
+			(xy 118.11 177.8) (xy 120.65 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3949,16 +4152,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 83.82) (xy 35.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd1fbb50-4cad-4510-b8b0-f9225afb0f69")
-	)
-	(wire
-		(pts
 			(xy 154.94 133.35) (xy 154.94 132.08)
 		)
 		(stroke
@@ -3969,7 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 168.91) (xy 99.06 168.91)
+			(xy 87.63 168.91) (xy 92.71 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4019,7 +4212,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 177.8) (xy 116.84 177.8)
+			(xy 107.95 177.8) (xy 110.49 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4039,7 +4232,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 185.42) (xy 39.37 186.69)
+			(xy 33.02 185.42) (xy 33.02 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4099,7 +4292,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 163.83) (xy 74.93 175.26)
+			(xy 68.58 163.83) (xy 68.58 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4119,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 175.26) (xy 87.63 179.07)
+			(xy 81.28 175.26) (xy 81.28 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4139,7 +4332,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 172.72) (xy 39.37 177.8)
+			(xy 33.02 172.72) (xy 33.02 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4169,7 +4362,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 172.72) (xy 57.15 172.72)
+			(xy 48.26 172.72) (xy 50.8 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4219,7 +4412,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 163.83) (xy 54.61 172.72)
+			(xy 48.26 163.83) (xy 48.26 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4239,7 +4432,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 175.26) (xy 93.98 168.91)
+			(xy 87.63 175.26) (xy 87.63 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4249,7 +4442,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 175.26) (xy 93.98 175.26)
+			(xy 33.02 83.82) (xy 35.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5af44fd-fc38-4970-b8ab-d0c51ac44381")
+	)
+	(wire
+		(pts
+			(xy 81.28 175.26) (xy 87.63 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4259,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 172.72) (xy 30.48 172.72)
+			(xy 22.86 172.72) (xy 24.13 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4279,7 +4482,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 168.91) (xy 114.3 177.8)
+			(xy 107.95 168.91) (xy 107.95 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4289,7 +4492,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 177.8) (xy 114.3 177.8)
+			(xy 104.14 177.8) (xy 107.95 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4321,7 +4524,7 @@
 			)
 		)
 	)
-	(global_label "Inversion CV"
+	(global_label "CV 3"
 		(shape input)
 		(at 161.29 132.08 0)
 		(fields_autoplaced yes)
@@ -4333,7 +4536,7 @@
 		)
 		(uuid "3439cd36-c58b-4410-bfc8-74113ef119c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1285 132.08 0)
+			(at 168.8109 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +4548,7 @@
 			)
 		)
 	)
-	(global_label "Chord CV"
+	(global_label "CV 2"
 		(shape input)
 		(at 248.92 74.93 0)
 		(fields_autoplaced yes)
@@ -4357,7 +4560,7 @@
 		)
 		(uuid "4c1226d5-a78a-401b-88f8-ff663c95fac2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.7346 74.93 0)
+			(at 256.4409 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4369,7 +4572,7 @@
 			)
 		)
 	)
-	(global_label "CV"
+	(global_label "CV 1"
 		(shape input)
 		(at 152.4 36.83 0)
 		(fields_autoplaced yes)
@@ -4381,7 +4584,7 @@
 		)
 		(uuid "6ad81f7d-2fed-415e-8a37-18bd86207053")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.7438 36.83 0)
+			(at 159.9209 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4393,7 +4596,7 @@
 			)
 		)
 	)
-	(global_label "Inversion"
+	(global_label "KNOB 2"
 		(shape input)
 		(at 53.34 83.82 0)
 		(fields_autoplaced yes)
@@ -4405,7 +4608,7 @@
 		)
 		(uuid "7d8c0a15-5daf-4e27-b8b8-ea1a767b4cd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.8523 83.82 0)
+			(at 63.7033 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4419,7 +4622,7 @@
 	)
 	(global_label "Out 1"
 		(shape input)
-		(at 29.21 172.72 180)
+		(at 22.86 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4429,7 +4632,7 @@
 		)
 		(uuid "88e431a9-38b9-4460-a7d5-91762ac13f99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.8425 172.72 0)
+			(at 14.4925 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4443,7 +4646,7 @@
 	)
 	(global_label "Out 2"
 		(shape input)
-		(at 29.21 167.64 180)
+		(at 22.86 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4453,7 +4656,7 @@
 		)
 		(uuid "a81eb7d5-3277-4281-b034-b7dfa447f5aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.8425 167.64 0)
+			(at 14.4925 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4465,7 +4668,7 @@
 			)
 		)
 	)
-	(global_label "Chord CV"
+	(global_label "CV 2"
 		(shape input)
 		(at 161.29 85.09 0)
 		(fields_autoplaced yes)
@@ -4477,7 +4680,7 @@
 		)
 		(uuid "a876bd45-2149-403f-b4d2-b048bb728dae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.1046 85.09 0)
+			(at 168.8109 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4489,7 +4692,7 @@
 			)
 		)
 	)
-	(global_label "Chord{slash}Wave"
+	(global_label "KNOB 3"
 		(shape input)
 		(at 248.92 69.85 0)
 		(fields_autoplaced yes)
@@ -4501,7 +4704,7 @@
 		)
 		(uuid "b93ad2f3-a764-4e3e-bf7a-1406bfde0162")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.3955 69.85 0)
+			(at 259.2833 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,7 +4716,7 @@
 			)
 		)
 	)
-	(global_label "Root Freq"
+	(global_label "KNOB 1"
 		(shape input)
 		(at 50.8 35.56 0)
 		(fields_autoplaced yes)
@@ -4525,7 +4728,7 @@
 		)
 		(uuid "ced1cc2e-4d72-4118-a96e-16d25e9be0bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1589 35.56 0)
+			(at 61.1633 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,7 +4764,7 @@
 			)
 		)
 	)
-	(global_label "Chord{slash}Wave"
+	(global_label "KNOB 3"
 		(shape input)
 		(at 50.8 134.62 0)
 		(fields_autoplaced yes)
@@ -4573,7 +4776,7 @@
 		)
 		(uuid "e9d07eeb-f273-42bd-afb9-2a166230e4a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.2755 134.62 0)
+			(at 61.1633 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4585,7 +4788,7 @@
 			)
 		)
 	)
-	(global_label "Inversion CV"
+	(global_label "CV 3"
 		(shape input)
 		(at 248.92 72.39 0)
 		(fields_autoplaced yes)
@@ -4597,7 +4800,7 @@
 		)
 		(uuid "f540dc69-99b3-4888-9808-ae741ad7f1f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.7585 72.39 0)
+			(at 256.4409 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4609,7 +4812,7 @@
 			)
 		)
 	)
-	(global_label "Root Freq"
+	(global_label "KNOB 1"
 		(shape input)
 		(at 248.92 62.23 0)
 		(fields_autoplaced yes)
@@ -4621,7 +4824,7 @@
 		)
 		(uuid "f9e76f9d-17d2-42d7-90c5-3bc17628931e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.2789 62.23 0)
+			(at 259.2833 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,7 +4836,7 @@
 			)
 		)
 	)
-	(global_label "CV"
+	(global_label "CV 1"
 		(shape input)
 		(at 248.92 80.01 0)
 		(fields_autoplaced yes)
@@ -4645,7 +4848,7 @@
 		)
 		(uuid "fd357373-77e0-456e-aa76-f40b60f4791c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.2638 80.01 0)
+			(at 256.4409 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,7 +4860,7 @@
 			)
 		)
 	)
-	(global_label "Inversion"
+	(global_label "KNOB 2"
 		(shape input)
 		(at 248.92 64.77 0)
 		(fields_autoplaced yes)
@@ -4669,7 +4872,7 @@
 		)
 		(uuid "fdd7327d-9934-4ec1-a6ef-a4f301800470")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.4323 64.77 0)
+			(at 259.2833 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4692,7 +4895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "003d122e-bd47-4373-bb75-884c49af3b1e")
-		(property "Reference" "68n2"
+		(property "Reference" "C6"
 			(at 150.114 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4702,7 +4905,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "68n"
 			(at 150.114 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4712,7 +4915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 153.9748 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4754,7 +4957,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "68n2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4771,7 +4974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01d9fe09-99da-4922-bdd4-18fe2d683e69")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 132.842 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4793,7 +4996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 138.684 89.916 90)
 			(hide yes)
 			(show_name no)
@@ -4835,7 +5038,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4853,7 +5056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0224732c-7ab2-42b4-bd7f-92824443de9d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 158.75 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4913,7 +5116,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4921,7 +5124,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 186.69 0)
+		(at 86.36 186.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4932,8 +5135,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d2498d1-1565-450e-96ee-bae28163d343")
-		(property "Reference" "#PWR036"
-			(at 92.71 193.04 0)
+		(property "Reference" "#PWR031"
+			(at 86.36 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4944,7 +5147,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 191.77 0)
+			(at 86.36 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4954,7 +5157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 186.69 0)
+			(at 86.36 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4965,7 +5168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 186.69 0)
+			(at 86.36 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4976,7 +5179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 186.69 0)
+			(at 86.36 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4992,7 +5195,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR036")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5010,7 +5213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16f1e4b9-0a94-48f1-9c4c-6630307e7b7d")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 106.68 83.1849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5032,7 +5235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Eurorack:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 111.76 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5077,7 +5280,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5095,7 +5298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17ee4813-0c87-4aa9-88e5-514097126a1e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR017"
 			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5155,7 +5358,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR035")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5403,7 +5606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b93b8ce-02ef-4512-9b41-b56508ac3228")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 148.59 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5468,7 +5671,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5485,7 +5688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24e0d180-ee7b-43c1-88d5-38514ebef901")
-		(property "Reference" "TP5"
+		(property "Reference" "TP1"
 			(at 229.108 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5507,7 +5710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 240.03 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5546,7 +5749,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "TP5")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5564,7 +5767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25ef8f90-d6b3-40af-b1f8-935012ee5b34")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR022"
 			(at 25.4 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5624,7 +5827,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR014")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5724,7 +5927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28a31354-5ca3-432f-be2c-772ff9a7dbbd")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 123.952 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5746,7 +5949,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 129.794 41.656 90)
 			(hide yes)
 			(show_name no)
@@ -5788,7 +5991,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5796,7 +5999,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 64.77 175.26 0)
+		(at 58.42 175.26 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5807,7 +6010,7 @@
 		(dnp no)
 		(uuid "2b44b70b-ab6e-4953-84d8-01c2a082379e")
 		(property "Reference" "U1"
-			(at 67.564 182.626 0)
+			(at 61.214 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5817,7 +6020,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 67.564 180.086 0)
+			(at 61.214 180.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5826,8 +6029,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 64.77 175.26 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5838,7 +6041,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 64.77 175.26 0)
+			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5849,7 +6052,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 64.77 175.26 0)
+			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5904,7 +6107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f355629-901b-47af-a21a-7cb9e59f563b")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR05"
 			(at 247.65 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5964,7 +6167,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR041")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5982,7 +6185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33ab3a50-c136-45e9-9f07-9a03fb107ade")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR018"
 			(at 139.7 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6042,7 +6245,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR033")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6050,7 +6253,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 87.63 186.69 0)
+		(at 81.28 186.69 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6061,8 +6264,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37867546-9bef-41d3-8535-988ec8a90e58")
-		(property "Reference" "#PWR040"
-			(at 87.63 182.88 0)
+		(property "Reference" "#PWR030"
+			(at 81.28 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6073,7 +6276,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 87.63 191.77 0)
+			(at 81.28 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6083,7 +6286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 186.69 0)
+			(at 81.28 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6094,7 +6297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 186.69 0)
+			(at 81.28 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6105,7 +6308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 87.63 186.69 0)
+			(at 81.28 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6121,7 +6324,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR040")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6160,7 +6363,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 127.254 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -6219,7 +6422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fe0b772-07c3-4559-bef7-543ea1de8b61")
-		(property "Reference" "10nF3"
+		(property "Reference" "C3"
 			(at 38.1 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6229,7 +6432,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 38.1 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6239,7 +6442,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 43.4848 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6281,7 +6484,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "10nF3")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6298,7 +6501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4650721a-7913-4ca8-ac17-204e354c6d64")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 132.842 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6320,7 +6523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 138.684 136.906 90)
 			(hide yes)
 			(show_name no)
@@ -6362,7 +6565,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6380,7 +6583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48ced7ec-20a3-4243-8658-1abb82da1304")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 25.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6440,7 +6643,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6458,7 +6661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48f4f868-2533-4bb9-b552-39dcbd9eb9da")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR09"
 			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6518,7 +6721,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR020")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6526,7 +6729,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 186.69 0)
+		(at 33.02 186.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6537,8 +6740,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e32281f-c8c2-435c-992e-ee9674f1dca7")
-		(property "Reference" "#PWR037"
-			(at 39.37 193.04 0)
+		(property "Reference" "#PWR028"
+			(at 33.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6549,7 +6752,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 191.77 0)
+			(at 33.02 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6559,7 +6762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 186.69 0)
+			(at 33.02 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6570,7 +6773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 186.69 0)
+			(at 33.02 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6581,7 +6784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 186.69 0)
+			(at 33.02 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +6800,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR037")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6615,7 +6818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54760648-78b5-4c73-9ef4-54340ec28995")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR026"
 			(at 25.4 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6675,7 +6878,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR015")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6693,7 +6896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54a2eb66-8ea6-4898-80c3-139e29783d9b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR04"
 			(at 256.54 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6753,7 +6956,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR017")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6761,7 +6964,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 102.87 177.8 0)
+		(at 96.52 177.8 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -6772,7 +6975,7 @@
 		(dnp no)
 		(uuid "554ab4c3-90fb-49a0-8917-084e2a07a063")
 		(property "Reference" "U1"
-			(at 102.87 187.96 0)
+			(at 96.52 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6782,7 +6985,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 102.87 185.42 0)
+			(at 96.52 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6791,8 +6994,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 177.8 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 96.52 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6803,7 +7006,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 102.87 177.8 0)
+			(at 96.52 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6814,7 +7017,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 102.87 177.8 0)
+			(at 96.52 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6869,7 +7072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57052bf7-2cc0-4fee-8eec-531fdf2034de")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 44.45 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6929,7 +7132,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6947,7 +7150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "581eeaf3-1ef2-4ca0-b8e3-280273018e0c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR012"
 			(at 158.75 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7007,7 +7210,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR028")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7025,7 +7228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "587147bb-e4ee-42af-83be-e34843ad4817")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR019"
 			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7085,7 +7288,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR032")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7103,7 +7306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5abc78af-09d2-4aab-b28b-fab63fb342ad")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 148.59 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7168,7 +7371,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7176,7 +7379,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 34.29 172.72 90)
+		(at 27.94 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7185,8 +7388,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fa9acc5-b1f1-4cea-9b1e-b6f2a13a36a3")
-		(property "Reference" "R14"
-			(at 36.322 178.308 90)
+		(property "Reference" "R12"
+			(at 29.972 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7197,7 +7400,7 @@
 			)
 		)
 		(property "Value" "3k9"
-			(at 36.322 175.768 90)
+			(at 29.972 175.768 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7207,8 +7410,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 34.544 171.704 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 28.194 171.704 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7219,7 +7422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 172.72 0)
+			(at 27.94 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7230,7 +7433,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 34.29 172.72 0)
+			(at 27.94 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7249,7 +7452,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7266,7 +7469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61a224d5-fbe2-4885-a876-00b0e78c35d1")
-		(property "Reference" "10nF2"
+		(property "Reference" "C8"
 			(at 38.1 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7276,7 +7479,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 38.1 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7286,7 +7489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 43.4848 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7328,7 +7531,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "10nF2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7336,7 +7539,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 177.8 90)
+		(at 114.3 177.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7345,8 +7548,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72bade27-fae8-4734-a8a4-0df9bb49a707")
-		(property "Reference" "R9"
-			(at 121.92 183.134 90)
+		(property "Reference" "R15"
+			(at 115.57 183.134 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7357,7 +7560,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 121.92 180.594 90)
+			(at 115.57 180.594 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7367,8 +7570,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.904 176.784 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 114.554 176.784 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7379,7 +7582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 177.8 0)
+			(at 114.3 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7390,7 +7593,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 177.8 0)
+			(at 114.3 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7409,7 +7612,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R9")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7417,7 +7620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 186.69 0)
+		(at 48.26 186.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7428,8 +7631,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7723403e-540e-45d2-b34e-179028d6b0bf")
-		(property "Reference" "#PWR038"
-			(at 54.61 193.04 0)
+		(property "Reference" "#PWR029"
+			(at 48.26 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7440,7 +7643,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 191.77 0)
+			(at 48.26 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7450,7 +7653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 186.69 0)
+			(at 48.26 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7461,7 +7664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 186.69 0)
+			(at 48.26 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7472,7 +7675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 186.69 0)
+			(at 48.26 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7488,7 +7691,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR038")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7506,7 +7709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a2993f8-25c3-44e1-8e73-07e8de675409")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 231.14 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7566,7 +7769,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7583,7 +7786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7aa096b3-6473-4d44-8b14-c19eb6c89572")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 39.37 130.8101 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7605,7 +7808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 37.084 133.604 90)
 			(hide yes)
 			(show_name no)
@@ -7647,7 +7850,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7665,7 +7868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e97a87f-53aa-4433-ae48-6fb514a818d7")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR020"
 			(at 138.43 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7725,7 +7928,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR027")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7963,7 +8166,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 186.69 0)
+		(at 120.65 186.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7974,8 +8177,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "887f282b-7bd4-4e76-8231-f685f190d503")
-		(property "Reference" "#PWR039"
-			(at 127 193.04 0)
+		(property "Reference" "#PWR032"
+			(at 120.65 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7986,7 +8189,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 191.77 0)
+			(at 120.65 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7996,7 +8199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 186.69 0)
+			(at 120.65 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8007,7 +8210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 186.69 0)
+			(at 120.65 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8018,7 +8221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 186.69 0)
+			(at 120.65 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8034,7 +8237,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR039")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8052,7 +8255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d8c5b20-704f-4ac4-9766-f4671ba099f3")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 106.68 34.9249 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8074,7 +8277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Eurorack:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 111.76 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8119,7 +8322,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8127,7 +8330,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 132.08 177.8 180)
+		(at 125.73 177.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8136,8 +8339,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8db497ae-4ae1-4b57-aa34-9a3f578f09c4")
-		(property "Reference" "J5"
-			(at 137.16 175.8949 0)
+		(property "Reference" "J4"
+			(at 130.81 175.8949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8148,7 +8351,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 137.16 178.4349 0)
+			(at 130.81 178.4349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8158,8 +8361,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 132.08 177.8 0)
+		(property "Footprint" "Eurorack:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 125.73 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8170,7 +8373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 177.8 0)
+			(at 125.73 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8181,7 +8384,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 132.08 177.8 0)
+			(at 125.73 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8203,7 +8406,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8211,7 +8414,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 39.37 181.61 0)
+		(at 33.02 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8220,8 +8423,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fb3de90-d956-419c-bf6a-dac23d89d897")
-		(property "Reference" "22nF1"
-			(at 43.688 186.436 0)
+		(property "Reference" "C10"
+			(at 37.338 186.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8230,8 +8433,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 43.688 183.642 0)
+		(property "Value" "22nF"
+			(at 37.338 183.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8240,8 +8443,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.3352 185.42 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 33.9852 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8252,7 +8455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 181.61 0)
+			(at 33.02 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8263,7 +8466,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 39.37 181.61 0)
+			(at 33.02 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8282,7 +8485,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "22nF1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8299,7 +8502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9758d024-59a8-46bd-a310-15dda69e93d5")
-		(property "Reference" "10nF1"
+		(property "Reference" "C5"
 			(at 40.64 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8309,7 +8512,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 40.64 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8319,7 +8522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 46.0248 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8361,7 +8564,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "10nF1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8599,7 +8802,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 87.63 182.88 180)
+		(at 81.28 182.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8608,8 +8811,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a04e570-8d17-4a30-b7c4-95f66d2c7ab8")
-		(property "Reference" "R12"
-			(at 80.518 181.864 0)
+		(property "Reference" "R16"
+			(at 74.168 181.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8620,7 +8823,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 80.518 184.404 0)
+			(at 74.168 184.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8630,8 +8833,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.614 182.626 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 80.264 182.626 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8642,7 +8845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 182.88 0)
+			(at 81.28 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8653,7 +8856,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 87.63 182.88 0)
+			(at 81.28 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8672,7 +8875,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8768,7 +8971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6762df6-0038-4d05-b397-77fdad8619fa")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 139.7 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8828,7 +9031,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8836,7 +9039,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 102.87 168.91 90)
+		(at 96.52 168.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8845,8 +9048,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a824181a-1a74-4f4e-8e62-dea5e4489608")
-		(property "Reference" "R10"
-			(at 105.156 166.37 90)
+		(property "Reference" "R11"
+			(at 98.806 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8857,7 +9060,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 105.156 163.83 90)
+			(at 98.806 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8867,8 +9070,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 103.124 167.894 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 96.774 167.894 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8879,7 +9082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 168.91 0)
+			(at 96.52 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8890,7 +9093,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 102.87 168.91 0)
+			(at 96.52 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8909,7 +9112,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8927,7 +9130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8cbc2c6-1ca8-42ea-9358-35817332cce5")
-		(property "Reference" "C10"
+		(property "Reference" "C2"
 			(at 252.476 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8991,7 +9194,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "C10")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9008,7 +9211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a92894ec-c587-4031-9d8c-bb3175591c67")
-		(property "Reference" "68n3"
+		(property "Reference" "C4"
 			(at 141.224 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9018,7 +9221,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "68n"
 			(at 141.224 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +9231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 145.0848 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9070,7 +9273,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "68n3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9087,7 +9290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2125c11-3302-4f58-ad8e-4aab46ea0032")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 125.476 82.296 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9109,7 +9312,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 127.254 84.074 90)
 			(hide yes)
 			(show_name no)
@@ -9151,7 +9354,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9159,7 +9362,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 66.04 163.83 270)
+		(at 59.69 163.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9168,8 +9371,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b23a9ffd-72b1-4231-851d-9c0a08afca85")
-		(property "Reference" "3.3nF1"
-			(at 67.056 168.402 90)
+		(property "Reference" "C9"
+			(at 60.706 168.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9178,8 +9381,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 67.056 171.196 90)
+		(property "Value" "3.3nF"
+			(at 60.706 171.196 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9188,8 +9391,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.23 164.7952 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 55.88 164.7952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9200,7 +9403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 163.83 0)
+			(at 59.69 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9211,7 +9414,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 66.04 163.83 0)
+			(at 59.69 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9230,7 +9433,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "3.3nF1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9248,7 +9451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba3ba591-0231-4b34-8dea-dd40384fec7f")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR02"
 			(at 129.54 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9308,7 +9511,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR019")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9326,7 +9529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba3e669f-cb96-4b7d-a071-1b5846cb978f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR011"
 			(at 138.43 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9386,7 +9589,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR034")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9404,7 +9607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bff48c31-a98c-4369-84ff-d33d1102aa72")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR01"
 			(at 25.4 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9464,7 +9667,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR010")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9640,7 +9843,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 39.37 162.56 180)
+		(at 33.02 162.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9649,8 +9852,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c913c0ed-45a5-438a-ac20-18c5e7c20e2b")
-		(property "Reference" "R16"
-			(at 42.164 162.052 0)
+		(property "Reference" "R9"
+			(at 35.814 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9661,7 +9864,7 @@
 			)
 		)
 		(property "Value" "7k5"
-			(at 42.164 164.592 0)
+			(at 35.814 164.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9671,8 +9874,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 38.354 162.306 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 32.004 162.306 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9683,7 +9886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 162.56 0)
+			(at 33.02 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9694,7 +9897,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 39.37 162.56 0)
+			(at 33.02 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9713,7 +9916,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R16")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9731,7 +9934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb626673-682b-49a4-bd8b-38226946d368")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR03"
 			(at 151.13 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9791,7 +9994,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR021")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9809,7 +10012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdd85c25-862a-4851-afb1-2ddf1c1830c2")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR027"
 			(at 44.45 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9869,7 +10072,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR016")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9886,8 +10089,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cff886be-a9c6-420d-a63f-1330a221dea9")
-		(property "Reference" "68n1"
-			(at 150.114 138.684 0)
+		(property "Reference" "C7"
+			(at 149.098 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9896,8 +10099,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 150.114 135.89 0)
+		(property "Value" "68n"
+			(at 149.098 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9906,7 +10109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 153.9748 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9948,7 +10151,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "68n1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9987,7 +10190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 37.084 34.544 90)
 			(hide yes)
 			(show_name no)
@@ -10037,7 +10240,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 46.99 172.72 90)
+		(at 40.64 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10047,7 +10250,7 @@
 		(dnp no)
 		(uuid "d535ef07-b784-4737-8c27-12326062ec6e")
 		(property "Reference" "R13"
-			(at 49.022 170.18 90)
+			(at 42.672 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10058,7 +10261,7 @@
 			)
 		)
 		(property "Value" "2k7"
-			(at 49.022 175.768 90)
+			(at 42.672 175.768 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10068,8 +10271,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 47.244 171.704 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 40.894 171.704 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10080,7 +10283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 172.72 0)
+			(at 40.64 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10091,7 +10294,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 46.99 172.72 0)
+			(at 40.64 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10128,7 +10331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddb12405-3987-4f2c-9d3d-8e894ec52059")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10188,7 +10391,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10206,7 +10409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df693d3c-2b51-4b84-a4f4-7f7e7cda4429")
-		(property "Reference" "C9"
+		(property "Reference" "C1"
 			(at 245.11 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10270,7 +10473,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "C9")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10310,7 +10513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Eurorack:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 111.76 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10373,7 +10576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5096887-7119-4c4e-87e2-ac514eaf9e1b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 27.94 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10433,7 +10636,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10451,7 +10654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e68e2ba0-e6e8-40a5-b541-0be98d69e3e4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR08"
 			(at 118.11 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10511,7 +10714,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR022")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10529,7 +10732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e76ebaef-54fb-4f44-8618-d4e4cb41f49d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 154.94 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10589,7 +10792,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10597,7 +10800,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 34.29 167.64 90)
+		(at 27.94 167.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10606,8 +10809,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec593e0f-3a21-438f-90a7-bc49713efcdb")
-		(property "Reference" "R15"
-			(at 35.56 164.846 90)
+		(property "Reference" "R10"
+			(at 29.21 164.846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10618,7 +10821,7 @@
 			)
 		)
 		(property "Value" "499k"
-			(at 35.56 162.306 90)
+			(at 29.21 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10628,8 +10831,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 34.544 166.624 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 28.194 166.624 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10640,7 +10843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 167.64 0)
+			(at 27.94 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10651,7 +10854,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 34.29 167.64 0)
+			(at 27.94 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10670,7 +10873,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R15")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10687,7 +10890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eeb95627-6763-4ef8-af8a-7948644f2818")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 41.91 80.0101 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10709,7 +10912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 39.624 82.804 90)
 			(hide yes)
 			(show_name no)
@@ -10751,7 +10954,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10759,7 +10962,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 81.28 175.26 90)
+		(at 74.93 175.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10768,8 +10971,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3f7c6be-03cf-4388-aa03-bddc477eb193")
-		(property "Reference" "R11"
-			(at 83.058 172.212 90)
+		(property "Reference" "R14"
+			(at 76.708 172.212 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10780,7 +10983,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 83.058 169.672 90)
+			(at 76.708 169.672 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10790,8 +10993,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 81.534 174.244 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 75.184 174.244 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10802,7 +11005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 175.26 0)
+			(at 74.93 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10813,7 +11016,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 81.28 175.26 0)
+			(at 74.93 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10832,7 +11035,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10850,7 +11053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8b3e72f-1dc1-42d2-884c-b10a5e56c0f1")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR010"
 			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10910,7 +11113,7 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR018")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10928,7 +11131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fecdba1c-237c-4770-b0b3-20368c0867fb")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 46.99 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10988,15 +11191,15 @@
 		(instances
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 217.932 124.079)
-		(size 34.925 12.065)
+		(at 144.78 172.085)
+		(size 27.178 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11011,7 +11214,7 @@
 		)
 		(uuid "6ad9a068-c00b-4d78-a509-b3a18517b3c8")
 		(property "Sheetname" "Eurorack Power"
-			(at 217.932 123.3674 0)
+			(at 144.78 171.3734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11022,7 +11225,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 217.932 136.7286 0)
+			(at 144.78 191.7196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11305,6 +11508,164 @@
 				QxO9p+YmqF1Z|
 			)
 			(checksum "A1F4D847E5A8EBA776D2764749DA7CB2")
+		)
+		(file
+			(name "logo template.kicad_wks")
+			(type worksheet)
+			(data |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
+				/zuni/OcxA/WEeK1rf5xOuf9|
+			)
+			(checksum "C998C2CBDBBB9C3ECE7EC7463394FCCA")
 		)
 	)
 )
