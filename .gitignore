@@ -1,0 +1,37 @@
+# KiCad backups / autosaves
+*-backups/
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+
+# KiCad caches and local state
+fp-info-cache
+*.cache
+*.tmp
+*.dcm
+*.bck
+
+# Plot/gerber/drill/export outputs (regenerate)
+*.gbr
+*.drl
+*.pos
+*.rpt
+*.csv
+*.net
+*.xml
+*.wrl
+*.svg
+*.pdf
+
+# If your bom/ folder is generated output:
+bom/
+# (If you want to keep some BOMs, remove the line above and ignore only generated patterns)
+# macOS metadata
+.DS_Store
+
+# KiCad autosave / lock files
+kicad/#auto_saved_files#
+kicad/*.lck
+kicad/~*.kicad_pcb.lck
+kicad/~*.kicad_sch.lck
