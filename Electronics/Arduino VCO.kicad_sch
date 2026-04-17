@@ -5,10 +5,10 @@
 	(uuid "3a28b572-943c-402b-9245-b62f72b0a8e3")
 	(paper "A4")
 	(title_block
-		(title "Tripple VCO")
-		(date "2026-04-15")
+		(title "CY3-FOLD VCO")
+		(date "2026-04-17")
 		(rev "v1.0")
-		(company "Dirty Dream - Nathanael Noir")
+		(company "©Dirty Dream - Nathanael Noir")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
@@ -2989,7 +2989,7 @@
 	)
 	(text "Change between MAJ, MAJ7, MAJ add9,\n sus2, min add9, min7, min, oct."
 		(exclude_from_sim no)
-		(at 74.676 145.034 0)
+		(at 77.724 145.796 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3124,7 +3124,7 @@
 	)
 	(text "This Knob is divided into 16 Parts. "
 		(exclude_from_sim no)
-		(at 73.152 99.314 0)
+		(at 79.502 99.568 0)
 		(effects
 			(font
 				(size 1.27 1.27)
