@@ -2850,7 +2850,7 @@
 	)
 	(text "KNOB 1: FREQUENCY\n"
 		(exclude_from_sim no)
-		(at 69.85 19.304 0)
+		(at 74.422 19.304 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2861,7 +2861,7 @@
 	)
 	(text "FUNDAMENTAL\n"
 		(exclude_from_sim no)
-		(at 81.026 24.384 0)
+		(at 85.598 24.384 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3019,6 +3019,17 @@
 		)
 		(uuid "98a73821-7702-42d9-9ab4-a214b338b62d")
 	)
+	(text "Why is there no 1K Resistor? "
+		(exclude_from_sim no)
+		(at 156.21 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "992573a0-7ca2-4653-bbb3-e3daadd758d9")
+	)
 	(text "1. Chord VCO"
 		(exclude_from_sim no)
 		(at 182.118 125.222 0)
@@ -3033,7 +3044,7 @@
 	)
 	(text "CARRIER"
 		(exclude_from_sim no)
-		(at 75.692 29.21 0)
+		(at 80.264 29.21 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3193,12 +3204,6 @@
 		(uuid "485686c8-f16e-4c6a-957a-4f5f13009f61")
 	)
 	(junction
-		(at 33.02 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5297424c-7cdf-4556-b07e-0c7f1ef04a8d")
-	)
-	(junction
 		(at 231.14 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3239,6 +3244,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d93839f-08a9-4037-ae2b-40db189192ac")
+	)
+	(junction
+		(at 68.58 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82636aa7-ee3e-48de-8251-df45d4cfd7c9")
 	)
 	(junction
 		(at 154.94 132.08)
@@ -3283,12 +3294,6 @@
 		(uuid "ec5bc246-437e-47da-bcec-2fc333776d90")
 	)
 	(junction
-		(at 68.58 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2ca4b88-42ab-4cab-a480-ea5309d3e9e7")
-	)
-	(junction
 		(at 118.11 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3299,6 +3304,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa136000-3238-41a2-9836-62e050ca9027")
+	)
+	(junction
+		(at 33.02 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8251b4-755c-413c-816e-db38482e3e2b")
 	)
 	(no_connect
 		(at 214.63 77.47)
@@ -3469,6 +3480,16 @@
 			(type default)
 		)
 		(uuid "0fed4ed9-eebe-485f-92e7-4d73002c86bd")
+	)
+	(wire
+		(pts
+			(xy 33.02 158.75) (xy 33.02 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1025accd-fce3-4bab-9e24-3f19fcb64acf")
 	)
 	(wire
 		(pts
@@ -3672,7 +3693,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 158.75) (xy 68.58 158.75)
+			(xy 33.02 158.75) (xy 55.88 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4142,16 +4163,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 166.37) (xy 33.02 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adda26ed-5165-47f1-8b73-bdf719e3a43d")
-	)
-	(wire
-		(pts
 			(xy 214.63 77.47) (xy 217.17 77.47)
 		)
 		(stroke
@@ -4439,6 +4450,16 @@
 			(type default)
 		)
 		(uuid "d5a74a1e-8d9d-489f-aa2e-502f04f57661")
+	)
+	(wire
+		(pts
+			(xy 63.5 158.75) (xy 68.58 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72ab8c6-3c69-4ba1-98b4-72ad5c31eeb1")
 	)
 	(wire
 		(pts
@@ -10013,7 +10034,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 33.02 162.56 180)
+		(at 59.69 158.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10023,7 +10044,7 @@
 		(dnp no)
 		(uuid "c913c0ed-45a5-438a-ac20-18c5e7c20e2b")
 		(property "Reference" "R9"
-			(at 35.814 162.052 0)
+			(at 55.88 157.226 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10034,7 +10055,7 @@
 			)
 		)
 		(property "Value" "7k5"
-			(at 35.814 164.592 0)
+			(at 61.468 155.702 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10045,7 +10066,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 32.004 162.306 90)
+			(at 59.436 159.766 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10056,7 +10077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 162.56 0)
+			(at 59.69 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10067,7 +10088,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 33.02 162.56 0)
+			(at 59.69 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10980,7 +11001,7 @@
 		(dnp no)
 		(uuid "ec593e0f-3a21-438f-90a7-bc49713efcdb")
 		(property "Reference" "R10"
-			(at 29.21 164.846 90)
+			(at 29.972 164.846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10991,7 +11012,7 @@
 			)
 		)
 		(property "Value" "499k"
-			(at 29.21 162.306 90)
+			(at 29.972 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
