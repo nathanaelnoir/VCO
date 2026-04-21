@@ -2685,8 +2685,8 @@
 		)
 	)
 	(rectangle
-		(start 102.108 106.045)
-		(end 176.53 151.638)
+		(start 102.108 105.918)
+		(end 176.53 152.146)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3077,6 +3077,17 @@
 		)
 		(uuid "c09aa902-c8cb-4f49-9aaa-762590fc00cc")
 	)
+	(text "Maybe a trimmer here\nto make a non-inverting \namplifier?"
+		(exclude_from_sim no)
+		(at 122.936 167.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "c555beaa-37ee-4347-9521-f1d62e598327")
+	)
 	(text ""
 		(exclude_from_sim no)
 		(at 263.906 122.682 0)
@@ -3086,6 +3097,17 @@
 			)
 		)
 		(uuid "d4a8c53a-874c-442f-8960-2459b9c68e3c")
+	)
+	(text "Changing R9 might change the filters behaviour. \nThus keep the ratio with the capacitor right."
+		(exclude_from_sim no)
+		(at 93.218 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "e6df291f-95db-419b-901f-529a52e70dab")
 	)
 	(text "MODULATION\n"
 		(exclude_from_sim no)
