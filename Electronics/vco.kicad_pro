@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Arduino VCO.kicad_pro",
+    "filename": "vco.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -518,7 +518,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -716,7 +716,7 @@
         "uuid": "3a28b572-943c-402b-9245-b62f72b0a8e3"
       }
     ],
-    "used_designators": "R17",
+    "used_designators": "J1-5,R1-17,#FLG1-3,D1-3,#PWR1-41,A1,C1-18,FB1-3,RV1-3,TP1-5,U1",
     "variants": []
   },
   "sheets": [

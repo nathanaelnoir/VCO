@@ -3088,7 +3088,7 @@
 			(uuid "0bfdd6e3-0b9f-430b-9ded-00271a79918a")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "TP3")
 					(unit 1)
@@ -3114,7 +3114,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bc36b22-6f1d-4774-9053-75d1b24d6e16")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 124.714 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3176,9 +3176,9 @@
 			(uuid "4b4200a6-9c50-49c0-8a68-fba2c588e408")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3261,7 +3261,7 @@
 			(uuid "2452b97d-2670-4803-8e1b-32e4a8c86f9d")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "#FLG03")
 					(unit 1)
@@ -3287,7 +3287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23903f12-4826-4e99-aa3d-86708c5f0744")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR033"
 			(at 26.67 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3345,9 +3345,9 @@
 			(uuid "954dc383-1436-45b5-ab0a-25c82f8c1da1")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "#PWR040")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3371,7 +3371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24441d85-f27c-45f4-84d9-58332922731f")
-		(property "Reference" "C14"
+		(property "Reference" "C17"
 			(at 124.714 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3433,9 +3433,9 @@
 			(uuid "564309a0-a156-4416-a8f5-467a5bcdc835")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "C14")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3460,7 +3460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fad2c30-d474-4a9c-b599-4325d5f6de07")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 152.4 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3518,9 +3518,9 @@
 			(uuid "1e1f7cac-5a22-4e34-abb4-be3bfe9d3226")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3545,7 +3545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "341d4262-827b-4fd9-be6d-71ee36f5fee1")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR036"
 			(at 54.61 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3604,9 +3604,9 @@
 			(uuid "7864d241-b291-49ee-a0ad-8bd7b5d120bf")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "#PWR041")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3630,7 +3630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "350bfbe1-9e04-4783-a08a-93db9a3cd52e")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 152.4 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3689,9 +3689,9 @@
 			(uuid "61fabd92-a425-4f43-8971-b0cadad7aa61")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3774,7 +3774,7 @@
 			(uuid "78e9766a-f742-441e-82df-a7695c8d9138")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "TP4")
 					(unit 1)
@@ -3860,7 +3860,7 @@
 			(uuid "37926b1c-f0cd-4d6f-aaeb-500e1850af4d")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "FB2")
 					(unit 1)
@@ -3948,7 +3948,7 @@
 			(uuid "b087f6c4-9a8c-43bc-a691-0b1cdaa9ca5e")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "C15")
 					(unit 1)
@@ -3974,7 +3974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6611cb92-000c-4f33-911e-97e6c592abbb")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 110.998 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4036,9 +4036,9 @@
 			(uuid "443d9482-42b5-4873-912f-b5e91ba450ed")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4062,7 +4062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67c2da82-a18b-48c7-982e-12fae527af35")
-		(property "Reference" "C17"
+		(property "Reference" "C11"
 			(at 49.784 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,9 +4124,9 @@
 			(uuid "d38a9e1b-ba7c-4a29-8d60-84df3d97626b")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "C17")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4150,7 +4150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "719a265c-bb2a-4ffe-9e62-e9782d07072c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR038"
 			(at 152.4 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4209,9 +4209,9 @@
 			(uuid "676aaf6c-25eb-4884-9c47-0da346e5e012")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "#PWR034")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4235,7 +4235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "740f241c-11ef-4837-b210-f87140e7911b")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR039"
 			(at 152.4 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4293,9 +4293,9 @@
 			(uuid "f9dc2856-c10d-43b9-997e-de01dd1f193b")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "#PWR035")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4319,7 +4319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7769bb0e-21cc-4c35-a8f7-91c398875101")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 152.4 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4377,9 +4377,9 @@
 			(uuid "44597f88-4fc4-4245-af74-4227ea71c408")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4504,7 +4504,7 @@
 			(uuid "60e0fda8-f24d-4dfd-b1ca-a6ed111a14b2")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "J5")
 					(unit 1)
@@ -4530,7 +4530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84f13d20-a48a-4b07-a9e6-f23383af1a86")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 124.714 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4592,9 +4592,9 @@
 			(uuid "24798787-4de0-4c97-945e-7a59f58abe05")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4677,7 +4677,7 @@
 			(uuid "2629711a-4b11-40e9-8148-0ae3315187f2")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "TP5")
 					(unit 1)
@@ -4762,7 +4762,7 @@
 			(uuid "f4d02c81-a133-4634-ab70-159155304bc0")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "TP2")
 					(unit 1)
@@ -4788,7 +4788,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91f3d344-efa9-4e29-a449-0067d12c7df9")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 29.21 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4847,9 +4847,9 @@
 			(uuid "df8a7cba-c195-48dd-931f-71de63260394")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4873,7 +4873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c9c8afd-107b-4819-9b2b-f6456a8e848e")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 96.52 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -4932,9 +4932,9 @@
 			(uuid "2a9239b3-cee4-4f8f-819a-3f6ac4b0e94f")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5038,7 +5038,7 @@
 			(uuid "dd8d8af1-578e-4d45-8de1-d113bde866ec")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "U1")
 					(unit 3)
@@ -5058,7 +5058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba5a058f-f954-43ef-9da9-dc7571a3dbc5")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR035"
 			(at 54.61 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5117,9 +5117,9 @@
 			(uuid "9c31b035-9dfa-427d-b486-eafe6467cb0f")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "#PWR039")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5144,7 +5144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd797232-3279-4d8e-b014-36c1c16fe953")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 30.48 61.595 0)
 			(hide yes)
 			(show_name no)
@@ -5202,9 +5202,9 @@
 			(uuid "d1257c4a-31c9-4629-8c13-24bfc1021a6e")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5287,7 +5287,7 @@
 			(uuid "4f638e4a-edca-4a71-b98b-4fa585a26479")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "FB3")
 					(unit 1)
@@ -5313,7 +5313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e424e3ab-8331-4609-90c0-a0542974cc13")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 110.998 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,9 +5375,9 @@
 			(uuid "51ca6c2f-8eeb-4dbf-b014-50143f8be128")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5461,7 +5461,7 @@
 			(uuid "d05a35cd-bbff-4c9a-9bed-be1dfdc0aec1")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "FB1")
 					(unit 1)
@@ -5487,7 +5487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4a082f5-ddbc-4687-995a-c0d38f957fc5")
-		(property "Reference" "C18"
+		(property "Reference" "C12"
 			(at 50.038 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5549,9 +5549,9 @@
 			(uuid "c39a2212-40f2-42ae-ac4d-7cf5dafc3365")
 		)
 		(instances
-			(project "Arduino VCO"
+			(project "vco"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "C18")
+					(reference "C12")
 					(unit 1)
 				)
 			)
