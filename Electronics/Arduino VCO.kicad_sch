@@ -3009,17 +3009,6 @@
 		)
 		(uuid "98a73821-7702-42d9-9ab4-a214b338b62d")
 	)
-	(text "Why is there no 1K Resistor? "
-		(exclude_from_sim no)
-		(at 156.21 54.864 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "992573a0-7ca2-4653-bbb3-e3daadd758d9")
-	)
 	(text "1. Chord VCO"
 		(exclude_from_sim no)
 		(at 182.118 125.222 0)
@@ -3066,17 +3055,6 @@
 			)
 		)
 		(uuid "c09aa902-c8cb-4f49-9aaa-762590fc00cc")
-	)
-	(text "Maybe a trimmer here\nto make a non-inverting \namplifier?"
-		(exclude_from_sim no)
-		(at 97.536 158.496 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "c555beaa-37ee-4347-9521-f1d62e598327")
 	)
 	(text ""
 		(exclude_from_sim no)
