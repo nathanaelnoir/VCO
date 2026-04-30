@@ -2953,7 +2953,7 @@
 		)
 		(uuid "759d28d1-d16b-49d4-a194-f0b450893836")
 	)
-	(text "This module can be implemented using code from one of \nthree oscillator types:"
+	(text "This module can be implemented using code from one of \nthree oscillator types (w/ three different firmwares):"
 		(exclude_from_sim no)
 		(at 232.156 112.522 0)
 		(effects
@@ -5212,7 +5212,7 @@
 			(uuid "08eccbdb-4fa9-40b6-8409-1e6b1f97bee8")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "C7")
 					(unit 1)
@@ -5293,7 +5293,7 @@
 			(uuid "8b414abe-872e-490b-94c4-cf5faa157e28")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R16")
 					(unit 1)
@@ -5371,7 +5371,7 @@
 			(uuid "e2f70317-eebc-4032-8f94-73c58153a7de")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR028")
 					(unit 1)
@@ -5450,7 +5450,7 @@
 			(uuid "88e78810-daa8-4858-a8bb-4c15c358d02d")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR013")
 					(unit 1)
@@ -5535,7 +5535,7 @@
 			(uuid "2b298c40-a47b-4507-8833-8c3a3e75944e")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "J2")
 					(unit 1)
@@ -5613,7 +5613,7 @@
 			(uuid "5b669dd7-8432-4e99-90a2-c33321523c9d")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR015")
 					(unit 1)
@@ -5843,7 +5843,7 @@
 			(uuid "c1589e00-9128-435b-b42d-1b03eda680c9")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "RV1")
 					(unit 1)
@@ -5926,7 +5926,7 @@
 			(uuid "57223a5a-7d55-47f7-bf91-c50fafb56ccc")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "D2")
 					(unit 1)
@@ -6004,7 +6004,7 @@
 			(uuid "513c0124-d263-40d4-9ccb-d53d3989c41c")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "TP1")
 					(unit 1)
@@ -6082,7 +6082,7 @@
 			(uuid "b22cdb96-dcd8-42c0-b4ef-16839ca6b6e7")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR01")
 					(unit 1)
@@ -6165,7 +6165,7 @@
 			(uuid "55068988-df8b-4950-8d55-9d2116376e65")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "D1")
 					(unit 1)
@@ -6246,7 +6246,7 @@
 			(uuid "7b4d7a8e-4926-4cae-b881-95258c29a990")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R15")
 					(unit 1)
@@ -6344,7 +6344,7 @@
 			(uuid "227447c8-082c-45d6-b2a2-a98ac2aa60f0")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "U1")
 					(unit 1)
@@ -6422,7 +6422,7 @@
 			(uuid "8e97408f-671a-46ec-a42d-9a3f85925e2a")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR031")
 					(unit 1)
@@ -6500,7 +6500,7 @@
 			(uuid "903aee5e-0569-4856-9b04-760567478440")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR022")
 					(unit 1)
@@ -6579,7 +6579,7 @@
 			(uuid "453514c3-1a6f-4d9f-9af9-7adb57c152e8")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR012")
 					(unit 1)
@@ -6660,7 +6660,7 @@
 			(uuid "3fc6d777-223a-4af5-bcc2-ee66dc29d027")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R12")
 					(unit 1)
@@ -6741,7 +6741,7 @@
 			(uuid "9752321e-a220-4cbd-bcdc-6c24a616ddd1")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R14")
 					(unit 1)
@@ -6820,7 +6820,7 @@
 			(uuid "f58ca1dd-b9f6-4f28-b5cd-dee7f236a672")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "C3")
 					(unit 1)
@@ -6901,7 +6901,7 @@
 			(uuid "be6dac79-fbb8-419b-9f9c-8bdf24836c47")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R17")
 					(unit 1)
@@ -6979,7 +6979,7 @@
 			(uuid "88ef813f-afc2-4a46-bc6a-9207a8e4ae7f")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR04")
 					(unit 1)
@@ -7057,7 +7057,7 @@
 			(uuid "acc64f6c-36c4-4c5a-86d6-b42e77f3e67c")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR021")
 					(unit 1)
@@ -7136,7 +7136,7 @@
 			(uuid "2884c4d8-49b5-477e-baab-0dddf6e2f560")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR07")
 					(unit 1)
@@ -7214,7 +7214,7 @@
 			(uuid "d733c89d-5c39-429e-a7fa-252afcdbced9")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR02")
 					(unit 1)
@@ -7292,7 +7292,7 @@
 			(uuid "65a14f63-293c-44ea-823f-62fb2473dc2e")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR032")
 					(unit 1)
@@ -7390,7 +7390,7 @@
 			(uuid "227447c8-082c-45d6-b2a2-a98ac2aa60f1")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "U1")
 					(unit 2)
@@ -7468,7 +7468,7 @@
 			(uuid "f5f155bb-0578-42c6-a1d8-c4ccec3b571f")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR09")
 					(unit 1)
@@ -7546,7 +7546,7 @@
 			(uuid "ade78e86-d954-4e3a-8633-bc300b85122f")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR027")
 					(unit 1)
@@ -7624,7 +7624,7 @@
 			(uuid "17c5f82f-2c41-41ff-8bf7-a5469310d4dc")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR025")
 					(unit 1)
@@ -7707,7 +7707,7 @@
 			(uuid "ebb72666-2cad-4805-a378-30820075872b")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "D3")
 					(unit 1)
@@ -7788,7 +7788,7 @@
 			(uuid "ce6aa029-6ec4-40db-9796-46d7dc31ab2e")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R2")
 					(unit 1)
@@ -7867,7 +7867,7 @@
 			(uuid "abe7074f-ae8d-47b1-bfb7-8355e213e036")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "C2")
 					(unit 1)
@@ -7945,7 +7945,7 @@
 			(uuid "a6f432c3-88f0-4d8f-b7aa-26d7b1d4e876")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "TP6")
 					(unit 1)
@@ -8026,7 +8026,7 @@
 			(uuid "91a976de-9f72-4d99-8bbb-7b6adecbda17")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R11")
 					(unit 1)
@@ -8105,7 +8105,7 @@
 			(uuid "b084f15e-0e45-43e9-a9f3-27ef0ea74ef5")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR011")
 					(unit 1)
@@ -8183,7 +8183,7 @@
 			(uuid "a27819a3-10d8-4e7f-bbf7-c65acee9cb2d")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR030")
 					(unit 1)
@@ -8264,7 +8264,7 @@
 			(uuid "356bd9f3-5fd6-4e0e-a82a-9c72790ff271")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R3")
 					(unit 1)
@@ -8342,7 +8342,7 @@
 			(uuid "63d76455-2d86-45f7-93af-c56f65c4cfbb")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR020")
 					(unit 1)
@@ -8420,7 +8420,7 @@
 			(uuid "f623e228-6c08-4516-aaa1-9ddd0c7a5b0a")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "TP10")
 					(unit 1)
@@ -8650,7 +8650,7 @@
 			(uuid "9cf3d9c2-54ca-4308-97e8-3452b8cd09c7")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "RV2")
 					(unit 1)
@@ -8729,7 +8729,7 @@
 			(uuid "90ebb7a2-0e31-4cc4-95e0-4f8d746715fc")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR017")
 					(unit 1)
@@ -8814,7 +8814,7 @@
 			(uuid "be21c763-244d-4540-a7d2-618f944f8930")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "J1")
 					(unit 1)
@@ -8898,7 +8898,7 @@
 			(uuid "234d5d60-4847-4ef3-a23b-55f89943eb18")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "J4")
 					(unit 1)
@@ -8977,7 +8977,7 @@
 			(uuid "c5d2aea3-8aea-4385-9bdc-b2ae0870b198")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "C1")
 					(unit 1)
@@ -9056,7 +9056,7 @@
 			(uuid "48afac3f-bc2e-4386-98e6-d594c369a29c")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "C4")
 					(unit 1)
@@ -9286,7 +9286,7 @@
 			(uuid "ee233844-0ae0-44bd-abdc-71d6c4ca108d")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "RV3")
 					(unit 1)
@@ -9367,7 +9367,7 @@
 			(uuid "70df9fe8-c5bc-4c29-9c63-60294efe6417")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R9")
 					(unit 1)
@@ -9445,7 +9445,7 @@
 			(uuid "ea94291e-6ff6-4b63-bc22-a11bd2cb0356")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR016")
 					(unit 1)
@@ -9523,7 +9523,7 @@
 			(uuid "85c3f3dc-6510-4071-9b66-0faa89cfc54d")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR023")
 					(unit 1)
@@ -9604,7 +9604,7 @@
 			(uuid "9aab29bf-af23-4a01-9a93-6c567042d592")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R10")
 					(unit 1)
@@ -9686,7 +9686,7 @@
 			(uuid "a205a83c-5157-4c8d-ac27-aab188b53d8f")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "C10")
 					(unit 1)
@@ -9765,7 +9765,7 @@
 			(uuid "beeca131-244f-4b94-9e9b-88c3c3d0f3c9")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "C6")
 					(unit 1)
@@ -9843,7 +9843,7 @@
 			(uuid "154bca32-d5ff-4f4c-912d-0d22ce911a67")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR042")
 					(unit 1)
@@ -9924,7 +9924,7 @@
 			(uuid "eac4f2b9-854e-460f-9eeb-f0c71b347b46")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R13")
 					(unit 1)
@@ -10003,7 +10003,7 @@
 			(uuid "8348659c-ab41-4119-93ef-3896f92a83b6")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "C5")
 					(unit 1)
@@ -10081,7 +10081,7 @@
 			(uuid "9833cae1-f18b-43d1-9c0d-725fc33818de")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR018")
 					(unit 1)
@@ -10159,7 +10159,7 @@
 			(uuid "8e32ee09-1823-4418-9f91-b779dbd5dae1")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR019")
 					(unit 1)
@@ -10237,7 +10237,7 @@
 			(uuid "ff82bc44-54c2-4a28-8d95-270ba0ac0db7")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR03")
 					(unit 1)
@@ -10405,7 +10405,7 @@
 			(uuid "e989fbc6-9145-4f09-a2f3-19d0850edd40")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "A1")
 					(unit 1)
@@ -10486,7 +10486,7 @@
 			(uuid "2d25f318-68db-4a0b-8bc4-2b2fb27e2dfb")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R7")
 					(unit 1)
@@ -10564,7 +10564,7 @@
 			(uuid "e088c3af-91e2-4f69-a0e2-117a73adea65")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR029")
 					(unit 1)
@@ -10642,7 +10642,7 @@
 			(uuid "0cce8459-85eb-424b-87d2-312601e49951")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "TP8")
 					(unit 1)
@@ -10720,7 +10720,7 @@
 			(uuid "af60290d-b18d-4779-b690-66d2b0561da7")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR08")
 					(unit 1)
@@ -10799,7 +10799,7 @@
 			(uuid "c93439da-db6e-41ae-82c5-fdd78b2d760d")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "C8")
 					(unit 1)
@@ -10880,7 +10880,7 @@
 			(uuid "3f15c338-f0f4-4cb7-9306-b6e680016e54")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R4")
 					(unit 1)
@@ -10961,7 +10961,7 @@
 			(uuid "d1fe3d98-3491-49fd-bf43-dcd3b6d85721")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R6")
 					(unit 1)
@@ -11039,7 +11039,7 @@
 			(uuid "9c2be389-fdc8-4de4-8e25-443821976b40")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR05")
 					(unit 1)
@@ -11121,7 +11121,7 @@
 			(uuid "b334b835-ffed-424b-bf79-3ce044746f8d")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "C9")
 					(unit 1)
@@ -11206,7 +11206,7 @@
 			(uuid "578c2ccb-f86d-4dcd-851a-86923ac95222")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "J3")
 					(unit 1)
@@ -11284,7 +11284,7 @@
 			(uuid "fff0e590-5160-4161-ad90-c8fcd91f36d2")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR06")
 					(unit 1)
@@ -11362,7 +11362,7 @@
 			(uuid "0a9b5f10-5f80-4a48-aa02-e1b78c2dfce6")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR014")
 					(unit 1)
@@ -11440,7 +11440,7 @@
 			(uuid "5be84a8f-c8d1-47e9-9ea9-a5dd19f896be")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR026")
 					(unit 1)
@@ -11518,7 +11518,7 @@
 			(uuid "c70c4e74-399b-41d6-899a-d04583b9c121")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "TP9")
 					(unit 1)
@@ -11599,7 +11599,7 @@
 			(uuid "eee81db1-a72b-4f64-89d8-1a800267c5f3")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R1")
 					(unit 1)
@@ -11680,7 +11680,7 @@
 			(uuid "f5398fad-24a7-4186-bc71-306a96d448cb")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R5")
 					(unit 1)
@@ -11758,7 +11758,7 @@
 			(uuid "f22f7f38-b2e9-4a0c-b7ee-73f1dcac7fab")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "TP7")
 					(unit 1)
@@ -11839,7 +11839,7 @@
 			(uuid "595b54fe-1ad7-436c-8f79-2ef630870490")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "R8")
 					(unit 1)
@@ -11917,7 +11917,7 @@
 			(uuid "4a62c69c-bb15-422b-beb8-f0ee2cbb5a57")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR024")
 					(unit 1)
@@ -11995,7 +11995,7 @@
 			(uuid "d877a244-7548-4bd1-8d22-40c490002805")
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(reference "#PWR010")
 					(unit 1)
@@ -12042,7 +12042,7 @@
 			)
 		)
 		(instances
-			(project "vco"
+			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
 					(page "2")
 				)
