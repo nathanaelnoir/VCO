@@ -512,7 +512,7 @@
       "specctra_dsn": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://dirty dream template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -716,7 +716,7 @@
         "uuid": "3a28b572-943c-402b-9245-b62f72b0a8e3"
       }
     ],
-    "used_designators": "R17",
+    "used_designators": "R17,TP11",
     "variants": []
   },
   "sheets": [

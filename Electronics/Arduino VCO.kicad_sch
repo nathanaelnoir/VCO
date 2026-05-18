@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CY3-FOLD VCO")
-		(date "2026-04-17")
+		(date "2026-05-18")
 		(rev "v1.0")
 		(company "©Dirty Dream - Nathanael Noir")
 	)
@@ -2781,7 +2781,7 @@
 		(uuid "c01262e5-b527-486d-be67-6d0def7a1334")
 	)
 	(rectangle
-		(start 177.8 12.954)
+		(start 177.8 13.208)
 		(end 283.718 104.902)
 		(stroke
 			(width 0)
@@ -2942,7 +2942,7 @@
 		)
 		(uuid "745bab28-fc88-43c3-aa26-14b0132ea73c")
 	)
-	(text "Eurorack Power\n"
+	(text "EURORACK PWR\n"
 		(exclude_from_sim no)
 		(at 158.242 157.734 0)
 		(effects
@@ -3065,17 +3065,6 @@
 			)
 		)
 		(uuid "d4a8c53a-874c-442f-8960-2459b9c68e3c")
-	)
-	(text "Do we really need this additional rail filtering?"
-		(exclude_from_sim no)
-		(at 255.778 17.526 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "ebcdf7e3-d8e5-478d-9c46-49c44ed2b2c5")
 	)
 	(text "MODULATION\n"
 		(exclude_from_sim no)
@@ -3208,7 +3197,7 @@
 		(uuid "5ec42eef-ae53-4569-8c32-e5e4f3397222")
 	)
 	(junction
-		(at 87.63 140.97)
+		(at 193.04 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65604b3e-e263-4c82-b359-9695c29c8642")
@@ -3290,6 +3279,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc99ada6-b0be-485a-8b25-ba5f41846479")
+	)
+	(junction
+		(at 85.09 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df49b177-def8-49a4-aed8-24ad19d6614a")
 	)
 	(junction
 		(at 46.99 35.56)
@@ -3787,6 +3782,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 175.26) (xy 87.63 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5285840e-6460-4df2-a473-8822063dd5bd")
+	)
+	(wire
+		(pts
 			(xy 247.65 38.1) (xy 250.19 38.1)
 		)
 		(stroke
@@ -3837,7 +3842,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 140.97) (xy 93.98 140.97)
+			(xy 193.04 90.17) (xy 199.39 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3867,7 +3872,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 143.51) (xy 87.63 140.97)
+			(xy 193.04 92.71) (xy 193.04 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4497,7 +4502,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 140.97) (xy 87.63 140.97)
+			(xy 186.69 90.17) (xy 193.04 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4687,7 +4692,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 175.26) (xy 87.63 175.26)
+			(xy 81.28 175.26) (xy 85.09 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8330,7 +8335,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 93.98 140.97 0)
+		(at 199.39 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8340,7 +8345,7 @@
 		(dnp no)
 		(uuid "7fb40cf3-e771-4b46-863b-786b4b0d222d")
 		(property "Reference" "TP10"
-			(at 91.948 132.842 0)
+			(at 197.358 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8351,7 +8356,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.948 135.382 0)
+			(at 197.358 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8362,7 +8367,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 99.06 140.97 0)
+			(at 204.47 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8373,7 +8378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 140.97 0)
+			(at 204.47 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8384,7 +8389,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 93.98 140.97 0)
+			(at 199.39 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9753,7 +9758,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 143.51 0)
+		(at 193.04 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9764,7 +9769,7 @@
 		(fields_autoplaced yes)
 		(uuid "b09f3aa2-1b29-499a-a2f5-5d84e5602639")
 		(property "Reference" "#PWR042"
-			(at 87.63 149.86 0)
+			(at 193.04 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9775,7 +9780,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 148.59 0)
+			(at 193.04 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9785,7 +9790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 143.51 0)
+			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9796,7 +9801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 143.51 0)
+			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9807,7 +9812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 143.51 0)
+			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10552,7 +10557,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.28 140.97 0)
+		(at 186.69 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10562,7 +10567,7 @@
 		(dnp no)
 		(uuid "cc58d7a6-6f84-427d-9ac8-9543e4ef2bfb")
 		(property "Reference" "TP8"
-			(at 79.756 132.842 0)
+			(at 185.166 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10573,7 +10578,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 79.756 135.382 0)
+			(at 185.166 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10584,7 +10589,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 86.36 140.97 0)
+			(at 191.77 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10595,7 +10600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 140.97 0)
+			(at 191.77 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10606,7 +10611,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 81.28 140.97 0)
+			(at 186.69 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11981,14 +11986,91 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 85.09 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "feeb0c5b-d079-40ff-aba1-80ec0bc83a9f")
+		(property "Reference" "TP11"
+			(at 81.28 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 83.058 169.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 90.17 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 85.09 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "482bd4c9-9d8f-4e77-9f2c-146ccdf870d4")
+		)
+		(instances
+			(project "Arduino VCO"
+				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 144.78 172.085)
+		(at 144.272 168.783)
 		(size 27.178 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -11998,7 +12080,7 @@
 		)
 		(uuid "6ad9a068-c00b-4d78-a509-b3a18517b3c8")
 		(property "Sheetname" "Eurorack Power"
-			(at 144.78 171.3734 0)
+			(at 144.526 168.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12009,7 +12091,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 144.78 191.7196 0)
+			(at 144.272 188.4176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
