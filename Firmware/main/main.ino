@@ -184,6 +184,14 @@ byte wave = kWaveSaw;
 
 int harm_knob = 0;
 byte gain = 127;
+byte additive_gain_1 = 0;
+byte additive_gain_2 = 0;
+byte additive_gain_3 = 0;
+byte additive_gain_4 = 0;
+byte additive_gain_5 = 0;
+byte additive_gain_6 = 0;
+byte additive_gain_7 = 0;
+byte additive_gain_8 = 0;
 
 int Switch = 0;
 int Mode = 0;
@@ -250,7 +258,7 @@ static inline float readVoctPow(int index) {
 }
 
 static inline int clipAudio8(int sample) {
- return constrain(sample, kAudio8Min, kAudio8Max);
+	 return constrain(sample, kAudio8Min, kAudio8Max);
 }
 
 
@@ -368,23 +376,31 @@ if (Mode == kModeAdditive) {
  harm_knob = (AnalogRead3 / 4) + (AnalogRead5 / 4);
  harm_knob = constrain(harm_knob, 0, 255);
 
- gain = (AnalogRead1 / 4) + (AnalogRead4 / 4);
- gain = constrain(gain, 0, 255);
+	 gain = (AnalogRead1 / 4) + (AnalogRead4 / 4);
+	 gain = constrain(gain, 0, 255);
+	 additive_gain_1 = pgm_read_byte(&(gain_table[0][gain]));
+	 additive_gain_2 = pgm_read_byte(&(gain_table[1][gain]));
+	 additive_gain_3 = pgm_read_byte(&(gain_table[2][gain]));
+	 additive_gain_4 = pgm_read_byte(&(gain_table[3][gain]));
+	 additive_gain_5 = pgm_read_byte(&(gain_table[4][gain]));
+	 additive_gain_6 = pgm_read_byte(&(gain_table[5][gain]));
+	 additive_gain_7 = pgm_read_byte(&(gain_table[6][gain]));
+	 additive_gain_8 = pgm_read_byte(&(gain_table[7][gain]));
 
- freq1 = AnalogRead0 / 8 ;
+	 freq1 = AnalogRead0 / 8 ;
 
  //frequency setting
 
- freqv1 = freq1 * pow(2, readVoctPow(voct)); // V/oct apply
+	 freqv1 = freq1 * pow(2, readVoctPow(voct)); // V/oct apply
 
- aSin1.setFreq(freqv1); // set the frequency
- aSin2.setFreq(freqv1 * (pgm_read_byte(&(harm_table[0][harm_knob])))); 
- aSin3.setFreq(freqv1 * (pgm_read_byte(&(harm_table[1][harm_knob])))); 
- aSin4.setFreq(freqv1 * (pgm_read_byte(&(harm_table[2][harm_knob])))); 
- aSin5.setFreq(freqv1 * (pgm_read_byte(&(harm_table[3][harm_knob])))); 
- aSin6.setFreq(freqv1 * (pgm_read_byte(&(harm_table[4][harm_knob])))); 
- aSin7.setFreq(freqv1 * (pgm_read_byte(&(harm_table[5][harm_knob])))); 
- aSin8.setFreq(freqv1 * (pgm_read_byte(&(harm_table[6][harm_knob])))); 
+	 aSin1.setFreq(freqv1); // set the frequency
+	 aSin2.setFreq(freqv1 * (pgm_read_byte(&(harm_table[0][harm_knob])))); 
+	 aSin3.setFreq(freqv1 * (pgm_read_byte(&(harm_table[1][harm_knob])))); 
+	 aSin4.setFreq(freqv1 * (pgm_read_byte(&(harm_table[2][harm_knob])))); 
+	 aSin5.setFreq(freqv1 * (pgm_read_byte(&(harm_table[3][harm_knob])))); 
+	 aSin6.setFreq(freqv1 * (pgm_read_byte(&(harm_table[4][harm_knob])))); 
+	 aSin7.setFreq(freqv1 * (pgm_read_byte(&(harm_table[5][harm_knob])))); 
+	 aSin8.setFreq(freqv1 * (pgm_read_byte(&(harm_table[6][harm_knob])))); 
 
  digitalWrite(kAdditiveLedPin,HIGH);
  digitalWrite(kFmLedPin,LOW);
@@ -656,7 +672,7 @@ AudioOutput_t updateAudio() {
 
 if (Mode == kModeAdditive) {
 
-  return MonoOutput::from8Bit(clipAudio8((aSin1.next()  * (pgm_read_byte(&(gain_table[0][gain]))) / 1024  + aSin2.next() * (pgm_read_byte(&(gain_table[1][gain]))) / 1024 + aSin3.next() * (pgm_read_byte(&(gain_table[2][gain]))) / 1024 + aSin4.next() * (pgm_read_byte(&(gain_table[3][gain]))) / 1024 + aSin5.next() * (pgm_read_byte(&(gain_table[4][gain]))) / 1024 + aSin6.next() * (pgm_read_byte(&(gain_table[5][gain]))) / 1024 + aSin7.next() * (pgm_read_byte(&(gain_table[6][gain]))) / 1024 + aSin8.next() * (pgm_read_byte(&(gain_table[7][gain]))) / 1024)*Gain_CV_2/256));
+  return MonoOutput::from8Bit(clipAudio8((aSin1.next()  * additive_gain_1 / 1024  + aSin2.next() * additive_gain_2 / 1024 + aSin3.next() * additive_gain_3 / 1024 + aSin4.next() * additive_gain_4 / 1024 + aSin5.next() * additive_gain_5 / 1024 + aSin6.next() * additive_gain_6 / 1024 + aSin7.next() * additive_gain_7 / 1024 + aSin8.next() * additive_gain_8 / 1024)*Gain_CV_2/256));
 
   }
    
