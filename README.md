@@ -40,7 +40,7 @@ $$
 where `Mode_CV` is computed by mapping the mode CV ADC value into:
 
 $$
-\mathrm{ModeCV} = \left\lfloor \operatorname{map}(A_2, 0, 1023, 0, 2) \right\rfloor
+\mathrm{ModeCV} = \left\lfloor \mathrm{map}(A_2, 0, 1023, 0, 2) \right\rfloor
 $$
 
 The switch then permutes the three possible modes.
@@ -74,7 +74,7 @@ constrains the index to `0...1023`, then reads the floating-point value from pro
 The level CV is mapped to `0...255`:
 
 $$
-G = \operatorname{map}(A_6, 0, 1023, 0, 255)
+G = \mathrm{map}(A_6, 0, 1023, 0, 255)
 $$
 
 Audio samples are usually multiplied by:
@@ -86,7 +86,7 @@ $$
 Then the result is clipped to the signed 8-bit audio range:
 
 $$
-y = \operatorname{clip}(x, -128, 127)
+y = \mathrm{clip}(x, -128, 127)
 $$
 
 This is what `clipAudio8()` does.
@@ -180,7 +180,7 @@ scaled by the level CV:
 
 $$
 y_\mathrm{out}[n] =
-\operatorname{clip}
+\mathrm{clip}
 \left(
 y[n] \cdot \frac{G}{256},
 -128,
@@ -246,7 +246,7 @@ Each row is a chord type:
 The chord selector combines the parameter 2 knob and CV:
 
 $$
-c = \operatorname{clip}
+c = \mathrm{clip}
 \left(
 \left\lfloor \frac{A_3}{128} \right\rfloor
 +
@@ -259,7 +259,7 @@ $$
 The inversion selector combines parameter 1 and its CV:
 
 $$
-i = \operatorname{clip}
+i = \mathrm{clip}
 \left(
 \left\lfloor \frac{A_1}{64} \right\rfloor
 +
@@ -380,7 +380,7 @@ then scaled by level:
 
 $$
 y_\mathrm{out}[n] =
-\operatorname{clip}
+\mathrm{clip}
 \left(
 y[n]\frac{G}{256},
 -128,
@@ -408,7 +408,7 @@ The harmonic selector is:
 
 $$
 h =
-\operatorname{clip}
+\mathrm{clip}
 \left(
 \left\lfloor \frac{A_3}{4} \right\rfloor
 +
@@ -422,7 +422,7 @@ The gain-shape selector is:
 
 $$
 g =
-\operatorname{clip}
+\mathrm{clip}
 \left(
 \left\lfloor \frac{A_1}{4} \right\rfloor
 +
@@ -477,7 +477,7 @@ then level-scaled:
 
 $$
 y_\mathrm{out}[n] =
-\operatorname{clip}
+\mathrm{clip}
 \left(
 y[n]\frac{G}{256},
 -128,
@@ -559,7 +559,7 @@ The final signal path is generally:
 $$
 y_\mathrm{digital}
 =
-\operatorname{clip}
+\mathrm{clip}
 \left(
 \alpha \cdot
 \sum_k x_k[n],
@@ -577,7 +577,7 @@ where \(\alpha\) includes:
 This means high-gain settings can still saturate. Saturation here is not analog soft clipping; it is integer-range limiting:
 
 $$
-\operatorname{clip}(x,-128,127)
+\mathrm{clip}(x,-128,127)
 =
 \begin{cases}
 -128 & x < -128 \\
@@ -588,12 +588,39 @@ $$
 
 ## Summary
 
-The three modes are mathematically different:
+The three modes are mathematically different.
 
-| Mode | Core equation | Musical behavior |
-| --- | --- | --- |
-| FM / 2-op | \(y(t)=\cos(\phi_c + D\cos(\phi_m))\) | sidebands, metallic tones, ratio/depth interaction |
-| Chord | \(y(t)=\sum_{j=1}^{5} x_j(t)\) | stacked chord tones from a pitch-offset table |
-| Additive | \(y(t)=\sum_{k=1}^{8} A_k(g)\sin(2\pi f_0M_k(h)t)\) | weighted sine partials, Fourier-like but table-shaped |
+### FM / 2-op
+
+Core equation:
+
+$$
+y(t) = \cos\left(\phi_c + D\cos(\phi_m)\right)
+$$
+
+Musical behavior: sidebands, metallic tones, ratio/depth interaction.
+
+### Chord
+
+Core equation:
+
+$$
+y(t) = \sum_{j=1}^{5} x_j(t)
+$$
+
+Musical behavior: stacked chord tones from a pitch-offset table.
+
+### Additive
+
+Core equation:
+
+$$
+y(t) =
+\sum_{k=1}^{8}
+A_k(g)
+\sin\left(2\pi f_0 M_k(h)t\right)
+$$
+
+Musical behavior: weighted sine partials, Fourier-like but table-shaped.
 
 The important distinction is that chord mode sums independent musical notes, while additive mode sums partials related to one root frequency. Additive mode is Fourier-like because it is a sine sum, but it is not a true Fourier series because the frequency multipliers and amplitudes are chosen by musical lookup tables rather than derived from a target waveform.
