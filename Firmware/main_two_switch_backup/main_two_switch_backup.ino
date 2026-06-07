@@ -16,7 +16,6 @@
 #include <Mozzi.h>
 #include <Oscil.h>
 #include <mozzi_fixmath.h>
-#include <EEPROM.h>
 
 
 #include <tables/sin2048_int8.h>
@@ -35,7 +34,8 @@
 constexpr byte kFmLedPin = 7;
 constexpr byte kChordLedPin = 6;
 constexpr byte kAdditiveLedPin = 8;
-constexpr byte kModeButtonPin = 4;
+constexpr byte kModeSwitchLeftPin = 5;
+constexpr byte kModeSwitchRightPin = 4;
 
 constexpr byte kPitchPotInput = 0;
 constexpr byte kParam1MainInput = 1;
@@ -51,9 +51,6 @@ constexpr int kAudio8Min = -128;
 constexpr int kAudio8Max = 127;
 constexpr int kWaveSelectThreshold = 1020;
 constexpr int kOctaveTableStep = 205;
-constexpr byte kModeSaveMagic = 0xA5;
-constexpr byte kModeSaveSlots = 64;
-constexpr byte kModeSaveRecordSize = 4;
 
 enum SynthMode : byte {
  kModeFm = 0,
@@ -202,13 +199,6 @@ int Mode_CV = 0;
 int Gain_CV_0 = 0;
 int Gain_CV_1 = 0;
 int Gain_CV_2 = 0;
-byte selectedMode = kModeFm;
-bool lastModeButtonReading = HIGH;
-bool stableModeButtonState = HIGH;
-unsigned long lastModeButtonChangeMs = 0;
-constexpr unsigned long kModeButtonDebounceMs = 35;
-byte modeSaveSlot = 0;
-byte modeSaveSequence = 0;
 
 
 
@@ -258,8 +248,6 @@ Q16n16 carrier_freq, mod_freq, knob_freq;
 
 static inline float readVoctPow(int index);
 static inline int clipAudio8(int sample);
-byte loadSavedMode();
-void saveSelectedMode(byte mode);
 void setFmFrequencies(Q16n16 freq);
 void updateControl();
 AudioOutput_t updateAudio();
@@ -273,71 +261,16 @@ static inline int clipAudio8(int sample) {
 	 return constrain(sample, kAudio8Min, kAudio8Max);
 }
 
-byte modeSaveChecksum(byte sequence, byte mode) {
- return kModeSaveMagic ^ sequence ^ mode ^ 0x5A;
-}
-
-byte loadSavedMode() {
- bool foundSavedMode = false;
- byte latestMode = kModeFm;
- byte latestSequence = 0;
- byte latestSlot = 0;
-
- for (byte slot = 0; slot < kModeSaveSlots; ++slot) {
-  int address = slot * kModeSaveRecordSize;
-  byte magic = EEPROM.read(address);
-  byte sequence = EEPROM.read(address + 1);
-  byte mode = EEPROM.read(address + 2);
-  byte checksum = EEPROM.read(address + 3);
-
-  if (magic != kModeSaveMagic || mode > kModeAdditive
-      || checksum != modeSaveChecksum(sequence, mode)) {
-   continue;
-  }
-
-  if (!foundSavedMode || static_cast<int8_t>(sequence - latestSequence) > 0) {
-   foundSavedMode = true;
-   latestMode = mode;
-   latestSequence = sequence;
-   latestSlot = slot;
-  }
- }
-
- if (foundSavedMode) {
-  modeSaveSlot = (latestSlot + 1) % kModeSaveSlots;
-  modeSaveSequence = latestSequence;
-  return latestMode;
- }
-
- modeSaveSlot = 0;
- modeSaveSequence = 0;
- return kModeFm;
-}
-
-void saveSelectedMode(byte mode) {
- modeSaveSequence++;
- int address = modeSaveSlot * kModeSaveRecordSize;
-
- EEPROM.update(address, kModeSaveMagic);
- EEPROM.update(address + 1, modeSaveSequence);
- EEPROM.update(address + 2, mode);
- EEPROM.update(address + 3, modeSaveChecksum(modeSaveSequence, mode));
-
- modeSaveSlot = (modeSaveSlot + 1) % kModeSaveSlots;
-}
-
 
 void setup()
 {
- selectedMode = loadSavedMode();
- Mode = selectedMode;
-
  startMozzi(MOZZI_CONTROL_RATE);
 
  pinMode(kChordLedPin, OUTPUT);
  pinMode(kFmLedPin, OUTPUT);
  pinMode(kAdditiveLedPin, OUTPUT);
- pinMode(kModeButtonPin, INPUT_PULLUP);
+ pinMode(kModeSwitchLeftPin, INPUT_PULLUP);
+ pinMode(kModeSwitchRightPin, INPUT_PULLUP);
 
 }
 
@@ -371,23 +304,62 @@ void updateControl() {
   AnalogRead5 = mozziAnalogRead(kParam2CvInput);
   AnalogRead7 = mozziAnalogRead(kVoctInput);
 
-  bool modeButtonReading = digitalRead(kModeButtonPin);
-  if (modeButtonReading != lastModeButtonReading) {
-    lastModeButtonChangeMs = millis();
-    lastModeButtonReading = modeButtonReading;
+  if(digitalRead(kModeSwitchLeftPin) == false) {
+    Switch = 0;
+  }
+  else if ((digitalRead(kModeSwitchRightPin) == false)) {
+    Switch = 2;
+  }
+  else if ((digitalRead(kModeSwitchLeftPin) == true) && (digitalRead(kModeSwitchRightPin) == true)) {
+    Switch = 1;
   }
 
-  if ((millis() - lastModeButtonChangeMs) > kModeButtonDebounceMs
-      && modeButtonReading != stableModeButtonState) {
-    stableModeButtonState = modeButtonReading;
 
-    if (stableModeButtonState == LOW) {
-      selectedMode = (selectedMode + 1) % 3;
-      saveSelectedMode(selectedMode);
+  if (Switch == 0) {
+    switch (Mode_CV) {
+      case 0: 
+        Mode = kModeFm;
+        break;
+      case 1:
+        Mode = kModeChord;
+        break;
+      case 2:
+        Mode = kModeAdditive;
+        break;
+    }
+        
+    
+  }
+
+  else if (Switch == 1) {
+    switch (Mode_CV) {
+      case 0:
+        Mode = kModeChord;
+        break;
+      case 1:
+        Mode = kModeAdditive;
+        break;
+      case 2:
+        Mode = kModeFm;
+        break;
+      
     }
   }
 
-  Mode = selectedMode;
+  else if (Switch == 2) {
+    switch (Mode_CV) {
+      case 0:
+        Mode = kModeAdditive;
+        break;
+      case 1:
+        Mode = kModeChord;
+        break;
+      case 2:
+        Mode = kModeFm;
+        break;
+        
+    }
+  }
 
   
   

@@ -666,6 +666,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -716,7 +734,7 @@
         "uuid": "3a28b572-943c-402b-9245-b62f72b0a8e3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C26,#PWR61",
     "variants": []
   },
   "sheets": [
