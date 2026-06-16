@@ -2338,6 +2338,12 @@
 		(uuid "02c30d1a-f1ec-47be-b843-0d3fef7f87fc")
 	)
 	(junction
+		(at 124.46 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "076bb2d3-b18d-4bfb-b858-4b88e330566d")
+	)
+	(junction
 		(at 125.73 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2356,22 +2362,22 @@
 		(uuid "17f3f89e-383a-42a9-8b25-e0a50a34fcd1")
 	)
 	(junction
-		(at 134.62 125.73)
+		(at 132.08 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a43814b-6148-439a-a396-3b1223e53b3b")
+	)
+	(junction
+		(at 134.62 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a436aee-3ee3-4efb-a934-5d61ab2c4773")
 	)
 	(junction
-		(at 134.62 116.84)
+		(at 116.84 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3781bd14-acb0-4295-8067-f56c84ec9465")
-	)
-	(junction
-		(at 148.59 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37c25ba3-16c1-49db-b899-6e83f86f2aa3")
+		(uuid "360d7ea0-9bdf-4fc2-97e9-5ae80ef3d647")
 	)
 	(junction
 		(at 48.26 66.04)
@@ -2386,16 +2392,22 @@
 		(uuid "53694c65-9b57-49e0-a0d5-d7a23641e0d5")
 	)
 	(junction
-		(at 132.08 115.57)
+		(at 111.76 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55bdcbc3-1537-430d-aef8-47cc143e1530")
+		(uuid "5f3c0f82-e509-4db0-a9fd-048b750ce34d")
 	)
 	(junction
 		(at 54.61 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "614ecb39-a71f-4aba-bdcb-c3dfaba20758")
+	)
+	(junction
+		(at 134.62 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "652a3df1-d000-4e2e-b3e7-9b272438e8bd")
 	)
 	(junction
 		(at 27.94 57.15)
@@ -2416,12 +2428,6 @@
 		(uuid "7aa077a5-9e66-4e14-a982-7dea28401c3b")
 	)
 	(junction
-		(at 116.84 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9053de75-97fd-421e-80be-08a5c6320ba2")
-	)
-	(junction
 		(at 125.73 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2440,7 +2446,7 @@
 		(uuid "9f7db11f-1283-4d35-8931-c4f3d4f998d1")
 	)
 	(junction
-		(at 142.24 116.84)
+		(at 142.24 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a619440e-0b36-4f87-8d80-068aceaf826c")
@@ -2450,18 +2456,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b67a444d-5a31-4497-9b32-3d0c2d88d092")
-	)
-	(junction
-		(at 124.46 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1630f07-9ac6-4280-9d44-044a1b936dd4")
-	)
-	(junction
-		(at 109.22 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d89f119f-844f-4933-bc7d-48b9c38ff6c2")
 	)
 	(junction
 		(at 50.8 57.15)
@@ -2488,36 +2482,30 @@
 		(uuid "f34685f3-0fba-4f2c-a420-20115cdc14ab")
 	)
 	(junction
-		(at 115.57 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f45f6192-a0f0-44e5-84ad-463e9518378b")
-	)
-	(junction
 		(at 118.11 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f51858f2-d801-4a98-9596-3a7dc6ea08f8")
 	)
 	(junction
-		(at 115.57 125.73)
+		(at 148.59 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fffab85f-38d0-49d4-964a-65b0c4d34c6b")
+		(uuid "fafcd661-eb48-4152-b60b-40630fe7ad94")
 	)
 	(wire
 		(pts
-			(xy 116.84 116.84) (xy 115.57 116.84)
+			(xy 124.46 123.19) (xy 124.46 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "025e601c-1b90-4eed-a378-15d77bd01521")
+		(uuid "005361fc-5b0a-41d5-8a58-668fd8bc8893")
 	)
 	(wire
 		(pts
-			(xy 134.62 125.73) (xy 142.24 125.73)
+			(xy 134.62 123.19) (xy 142.24 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2557,7 +2545,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 114.3) (xy 92.71 116.84)
+			(xy 92.71 114.3) (xy 92.71 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2577,6 +2565,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 123.19) (xy 124.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a101ef-5064-4859-90e9-b615c2650496")
+	)
+	(wire
+		(pts
 			(xy 54.61 107.95) (xy 54.61 109.22)
 		)
 		(stroke
@@ -2584,16 +2582,6 @@
 			(type default)
 		)
 		(uuid "140779a8-0577-4154-ab88-5be26697b9ac")
-	)
-	(wire
-		(pts
-			(xy 109.22 116.84) (xy 104.14 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1646b69c-27b2-4d69-8b28-974049c0e061")
 	)
 	(wire
 		(pts
@@ -2637,16 +2625,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 114.3) (xy 161.29 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "269a35fa-b645-41fa-899a-22798c1e376f")
-	)
-	(wire
-		(pts
 			(xy 48.26 66.04) (xy 35.56 66.04)
 		)
 		(stroke
@@ -2654,26 +2632,6 @@
 			(type default)
 		)
 		(uuid "291ccd98-1630-44b0-8187-db96adeec729")
-	)
-	(wire
-		(pts
-			(xy 142.24 124.46) (xy 142.24 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29d24f64-58a2-4f28-91c8-f0957eba1038")
-	)
-	(wire
-		(pts
-			(xy 124.46 125.73) (xy 124.46 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c302da7-2a42-45e7-a80d-dab19c1d2a04")
 	)
 	(wire
 		(pts
@@ -2717,26 +2675,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 124.46) (xy 109.22 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "403ea0ca-3481-4e20-8d89-d28eabaadc80")
-	)
-	(wire
-		(pts
-			(xy 132.08 115.57) (xy 132.08 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4150fcfa-2d3a-4477-9b13-68a59aac06ec")
-	)
-	(wire
-		(pts
 			(xy 116.84 104.14) (xy 116.84 115.57)
 		)
 		(stroke
@@ -2777,13 +2715,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 123.19) (xy 124.46 125.73)
+			(xy 111.76 115.57) (xy 116.84 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50bb1602-3939-41c1-bf09-16fa701f84c9")
+		(uuid "4d5793ef-780a-4517-be53-855a0a0fbe99")
 	)
 	(wire
 		(pts
@@ -2807,33 +2745,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 116.84 116.84)
+			(xy 161.29 113.03) (xy 161.29 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61a8acb2-c6cf-4d72-8c4f-bcde51bea226")
-	)
-	(wire
-		(pts
-			(xy 115.57 116.84) (xy 109.22 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62e43b7b-e22f-49ab-9c58-e3dfb2a34ce9")
-	)
-	(wire
-		(pts
-			(xy 115.57 124.46) (xy 115.57 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65692bf3-5016-4830-b1ed-4bfffa4bf427")
+		(uuid "6430496a-dadd-4d09-b8bf-9493b24a556e")
 	)
 	(wire
 		(pts
@@ -2847,23 +2765,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 125.73) (xy 134.62 125.73)
+			(xy 124.46 123.19) (xy 134.62 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6820d289-5eda-467c-9ee2-cdda68ee41d7")
-	)
-	(wire
-		(pts
-			(xy 142.24 116.84) (xy 148.59 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68cd8e69-4a88-4678-9972-12ba44e01a0d")
 	)
 	(wire
 		(pts
@@ -2884,16 +2792,6 @@
 			(type default)
 		)
 		(uuid "6e913bce-8247-4454-ae27-b130886d9d65")
-	)
-	(wire
-		(pts
-			(xy 109.22 125.73) (xy 115.57 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74900e9e-30b2-4a06-8926-66acc9dcead5")
 	)
 	(wire
 		(pts
@@ -2947,7 +2845,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 116.84) (xy 99.06 116.84)
+			(xy 92.71 115.57) (xy 111.76 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3037,7 +2935,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 116.84) (xy 142.24 116.84)
+			(xy 134.62 115.57) (xy 142.24 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3067,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 116.84) (xy 134.62 116.84)
+			(xy 132.08 115.57) (xy 134.62 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3084,16 +2982,6 @@
 			(type default)
 		)
 		(uuid "afcd5e18-fcc8-4c44-9c25-c6d4a27389f3")
-	)
-	(wire
-		(pts
-			(xy 115.57 125.73) (xy 124.46 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b98edd7d-5a1f-4e56-90de-22647c0bb0f1")
 	)
 	(wire
 		(pts
@@ -3197,16 +3085,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 124.46) (xy 134.62 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb3db3b-83c2-4407-8bca-68f1b5e3c515")
-	)
-	(wire
-		(pts
 			(xy 125.73 66.04) (xy 148.59 66.04)
 		)
 		(stroke
@@ -3217,7 +3095,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 116.84) (xy 161.29 116.84)
+			(xy 142.24 115.57) (xy 148.59 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3244,6 +3122,16 @@
 			(type default)
 		)
 		(uuid "f869c742-1222-4202-a639-35a5d4701d2e")
+	)
+	(wire
+		(pts
+			(xy 148.59 115.57) (xy 161.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90211d4-11ca-44ac-8607-ef7bfbec3a2b")
 	)
 	(wire
 		(pts
@@ -3332,6 +3220,88 @@
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13131f39-afa5-4f66-9589-fa6984a214b5")
+		(property "Reference" "C24"
+			(at 119.38 122.428 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 119.38 124.968 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 110.7948 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.taydaelectronics.com/100nf-50v-smd-ceramic-chip-capacitor.html"
+			(at 111.76 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 111.76 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a72f9b1-8935-4d9c-8dbc-783a6fa66a53")
+		)
+		(pin "1"
+			(uuid "df3e12dc-121f-4e78-adcd-037e4613280b")
+		)
+		(instances
+			(project "Arduino VCO"
+				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3515,7 +3485,7 @@
 		(dnp no)
 		(uuid "2883aabd-09e9-4da3-8833-88783fcb0a35")
 		(property "Reference" "D9"
-			(at 138.684 101.854 0)
+			(at 129.032 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3525,7 +3495,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 138.938 104.14 0)
+			(at 129.286 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4091,7 +4061,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 161.29 114.3 0)
+		(at 161.29 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4102,7 +4072,7 @@
 		(fields_autoplaced yes)
 		(uuid "582d9877-fe88-432e-b40c-abf80197757a")
 		(property "Reference" "#PWR060"
-			(at 161.29 118.11 0)
+			(at 161.29 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4113,7 +4083,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 161.29 109.22 0)
+			(at 161.29 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4123,7 +4093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 114.3 0)
+			(at 161.29 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4134,7 +4104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 114.3 0)
+			(at 161.29 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,7 +4115,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 161.29 114.3 0)
+			(at 161.29 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4518,88 +4488,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 120.65 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "729f5be2-ed68-44c7-b887-027dba5e4840")
-		(property "Reference" "C22"
-			(at 104.902 124.206 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 104.902 126.746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 108.2548 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.taydaelectronics.com/100nf-50v-smd-ceramic-chip-capacitor.html"
-			(at 109.22 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 109.22 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "87be4724-63d0-4598-aa5f-5996d1155bed")
-		)
-		(pin "1"
-			(uuid "83825394-0473-4592-ab99-c1ce0568229d")
-		)
-		(instances
-			(project "Arduino VCO"
-				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 104.14 52.07 0)
 		(mirror y)
 		(unit 1)
@@ -4682,7 +4570,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 134.62 120.65 0)
+		(at 134.62 119.38 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4693,7 +4581,7 @@
 		(dnp no)
 		(uuid "7835feb1-5ac6-4ce2-a4f3-04c3cd2d13a5")
 		(property "Reference" "C25"
-			(at 139.954 112.268 0)
+			(at 139.954 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4704,7 +4592,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 140.208 114.808 0)
+			(at 140.208 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4715,7 +4603,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
-			(at 133.6548 124.46 0)
+			(at 133.6548 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4726,7 +4614,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/a-1677.pdf"
-			(at 134.62 120.65 0)
+			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4737,7 +4625,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 134.62 120.65 0)
+			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5335,88 +5223,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 115.57 120.65 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7b0b21a-3836-418d-a2bd-786f0c73f2c9")
-		(property "Reference" "C24"
-			(at 108.966 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 104.648 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
-			(at 114.6048 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/a-1677.pdf"
-			(at 115.57 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 115.57 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce6b9839-1b67-4ab5-8116-f59e0e197856")
-		)
-		(pin "2"
-			(uuid "af23ec99-732a-48a6-921b-44e5fe2ec8ab")
-		)
-		(instances
-			(project "Arduino VCO"
-				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 104.14 60.96 0)
 		(mirror y)
@@ -5822,7 +5628,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 148.59 116.84 0)
+		(at 148.59 115.57 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5833,7 +5639,7 @@
 		(dnp no)
 		(uuid "e0762d49-6d52-4737-928c-0f560fdb711f")
 		(property "Reference" "TP11"
-			(at 150.114 108.966 0)
+			(at 150.114 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5844,7 +5650,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 149.86 110.998 0)
+			(at 149.86 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5855,7 +5661,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 143.51 116.84 0)
+			(at 143.51 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5866,7 +5672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 116.84 0)
+			(at 143.51 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5877,7 +5683,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 148.59 116.84 0)
+			(at 148.59 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5901,7 +5707,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 120.65 0)
+		(at 142.24 119.38 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5912,7 +5718,7 @@
 		(dnp no)
 		(uuid "e2fd2eb7-dd22-4a74-969d-78e6c865aaf4")
 		(property "Reference" "C23"
-			(at 149.86 123.698 0)
+			(at 149.86 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5923,7 +5729,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 149.86 126.238 0)
+			(at 149.86 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5934,7 +5740,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 141.2748 124.46 0)
+			(at 141.2748 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5945,7 +5751,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.taydaelectronics.com/100nf-50v-smd-ceramic-chip-capacitor.html"
-			(at 142.24 120.65 0)
+			(at 142.24 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5956,7 +5762,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 120.65 0)
+			(at 142.24 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5976,86 +5782,6 @@
 			(project "Arduino VCO"
 				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 101.6 116.84 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e80c0e3c-b4a0-4f5e-ba79-4e1b86231664")
-		(property "Reference" "FB1"
-			(at 103.378 104.394 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead_Small"
-			(at 103.378 106.934 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
-			(at 101.6 118.618 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-3191.PDF"
-			(at 101.6 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 101.6 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a76148d2-facd-46b3-943a-26b347b54b7e")
-		)
-		(pin "1"
-			(uuid "e8018db1-5696-4c68-96b4-b42941e65950")
-		)
-		(instances
-			(project "Arduino VCO"
-				(path "/3a28b572-943c-402b-9245-b62f72b0a8e3/6ad9a068-c00b-4d78-a509-b3a18517b3c8"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
