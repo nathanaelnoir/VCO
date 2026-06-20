@@ -11793,7 +11793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H13mm"
+		(property "Footprint" "Eurorack:SW_PUSH_6mm_H13mm_1"
 			(at 184.15 34.29 0)
 			(hide yes)
 			(show_name no)
