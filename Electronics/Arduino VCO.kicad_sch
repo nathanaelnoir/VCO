@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "CY3-FOLD VCO")
-		(date "2026-04-17")
+		(date "2026-06-21")
 		(rev "v1.0")
-		(company "©Dirty Dream - Nathanael Noir")
+		(company "© Dirty Dream – Nathanael Noir")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
